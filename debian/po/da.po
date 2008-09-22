@@ -46,7 +46,9 @@ msgstr "Kunne ikke montere /target/proc"
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "Montering af proc-filsystemet på /target/proc mislykkedes."
+msgstr ""
+"Montering af proc-filsystemet pÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¥ /target/"
+"proc mislykkedes."
 
 #. Type: error
 #. Description
@@ -60,7 +62,9 @@ msgstr "Tjek /var/log/syslog eller kig på den virtuelle konsol 4 for detaljer."
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Advarsel: Dit system er måske ude af stand til at starte op!"
+msgstr ""
+"Advarsel: Dit system er mÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¥ske ude af stand "
+"til at starte op!"
 
 #. Type: note
 #. Description
@@ -74,7 +78,9 @@ msgstr "Advarsel: Dit system er måske ude af stand til at starte op!"
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 #: ../nobootloader.templates:5001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Sætter firmware-variable til automatisk opstart"
+msgstr ""
+"SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦tter firmware-variable til automatisk "
+"opstart"
 
 #. Type: note
 #. Description
@@ -86,10 +92,11 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Der skal sættes nogle variabler i Genesi-firmwaren, for at dit system kan "
-"starte op automatisk. Ved afslutningen af installationen vil systemet "
-"genstarte. Sæt følgende OpenFirmware-variabler ved firmware-prompten for at "
-"aktivere automatisk opstart:"
+"Der skal sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦ttes nogle variabler i Genesi-"
+"firmwaren, for at dit system kan starte op automatisk. Ved afslutningen af "
+"installationen vil systemet genstarte. SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦t "
+"fÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸lgende OpenFirmware-variabler ved firmware-"
+"prompten for at aktivere automatisk opstart:"
 
 #. Type: note
 #. Description
@@ -102,8 +109,11 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"Du behøver kun at gøre dette én gang. Giv derefter kommandoen \"boot\" eller "
-"genstart systemet for at gå videre til dit nyinstallerede system."
+"Du behÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ver kun at "
+"gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸re dette "
+"ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©n gang. Giv derefter kommandoen \"boot\" "
+"eller genstart systemet for at gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¥ videre til "
+"dit nyinstallerede system."
 
 #. Type: note
 #. Description
@@ -113,8 +123,8 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Alternativt vil du kunne starte kernen op manuelt ved at skrive følgende i "
-"firmware-prompten:"
+"Alternativt vil du kunne starte kernen op manuelt ved at skrive "
+"fÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸lgende i firmware-prompten:"
 
 #. Type: note
 #. Description
@@ -125,9 +135,11 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"Der skal sættes nogle variabler i CFE, for at dit system kan starte op "
-"automatisk. Ved afslutningen af installationen vil systemet genstarte. Sæt "
-"følgende variabler ved firmware-prompten for at forenkle opstart:"
+"Der skal sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦ttes nogle variabler i CFE, for "
+"at dit system kan starte op automatisk. Ved afslutningen af installationen "
+"vil systemet genstarte. SÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦t "
+"fÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸lgende variabler ved firmware-prompten for "
+"at forenkle opstart:"
 
 #. Type: note
 #. Description
@@ -137,8 +149,10 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"Du behøver kun gøre dette en gang. Dette gør det muligt for dig bare at "
-"afgive kommandoen \"boot debian\" ved CFE-prompten."
+"Du behÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ver kun "
+"gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸re dette en gang. Dette "
+"gÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸r det muligt for dig bare at afgive "
+"kommandoen \"boot debian\" ved CFE-prompten."
 
 #. Type: note
 #. Description
@@ -148,8 +162,10 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"Hvis du foretrækker at boote automatisk ved hver start, kan du, udover de "
-"ovenstående, sætte de følgende variable:"
+"Hvis du foretrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦kker at boote automatisk ved "
+"hver start, kan du, udover de ovenstÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¥ende, "
+"sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦tte de "
+"fÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸lgende variable:"
 
 #. Type: note
 #. Description
@@ -162,12 +178,15 @@ msgid ""
 "You can abort this by pressing any key. You will then be dropped into the "
 "NeTTrom command system where you have to execute the following commands:"
 msgstr ""
-"Der skal sættes nogle variabler i Netwinder NeTTrom-firmwaren for at dit "
-"system kan starte Linux op automatisk. Ved afslutningen af dette "
-"installationsstadium vil systemet genstarte, og firmwaren vil forsøge at "
-"genstarte automatisk. Du kan afbryde dette ved et tryk på en tast. Det vil "
-"føre dig til NeTTroms kommandosystem, hvor du skal udføre følgende "
-"kommandoer:"
+"Der skal sÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¦ttes nogle variabler i Netwinder "
+"NeTTrom-firmwaren for at dit system kan starte Linux op automatisk. Ved "
+"afslutningen af dette installationsstadium vil systemet genstarte, og "
+"firmwaren vil forsÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸ge at genstarte "
+"automatisk. Du kan afbryde dette ved et tryk "
+"pÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¥ en tast. Det vil "
+"fÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸re dig til NeTTroms kommandosystem, hvor "
+"du skal udfÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸re "
+"fÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¸lgende kommandoer:"
 
 #. Type: note
 #. Description
