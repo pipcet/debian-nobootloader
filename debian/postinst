@@ -13,7 +13,12 @@ error () {
 }
 
 findfs () {
-	mount | grep "on /target${1%/} " | tail -n1 | cut -d' ' -f1
+	case "$(udpkg --print-os)" in
+	    hurd)
+		fsysopts "/target$1" | sed 's:^.* \([^ ]*\):\1:' ;;
+	    *)
+		mount | grep "on /target${1%/} " | tail -n1 | cut -d' ' -f1 ;;
+	esac
 }
 
 die () {
@@ -175,6 +180,14 @@ case "$(archdetect)" in
 	db_subst $template INITRD "sata0.0:/${boot}${initrd}"
 	db_subst $template KERNFILE "sata0.0:/${boot}${kernel}"
 	db_subst $template BOOTARGS "root=$rootfs"
+	db_input high $template || true
+	;;
+    hurd-i386/*)
+	kernel=gnumach.gz
+	template=nobootloader/confirmation_common
+	db_subst $template ROOT "root=device:${rootfs#/dev/}"
+	db_subst $template BOOT "${bootfs}"
+	db_subst $template KERNEL "${kernel}"
 	db_input high $template || true
 	;;
     *)
