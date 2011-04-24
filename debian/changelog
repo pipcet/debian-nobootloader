@@ -1,9 +1,23 @@
-nobootloader (1.30) UNRELEASED; urgency=low
+nobootloader (1.30) unstable; urgency=low
+
+  * Team upload
 
   [ Samuel Thibault ]
   * Add hurd-i386 support.
 
- -- Samuel Thibault <sthibault@debian.org>  Mon, 14 Feb 2011 08:48:23 +0100
+  [ Updated translations ]
+  * Bulgarian (bg.po) by Damyan Ivanov
+  * Czech (cs.po) by Miroslav Kure
+  * Esperanto (eo.po) by Felipe Castro
+  * Spanish (es.po) by Javier Fernández-Sanguino
+  * Korean (ko.po) by Changwoo Ryu
+  * Romanian (ro.po) by Eddy Petrișor
+  * Slovak (sk.po) by Ivan Masár
+  * Swedish (sv.po) by Daniel Nylander
+  * Thai (th.po) by Theppitak Karoonboonyanan
+  * Uyghur (ug.po) by Sahran
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 24 Apr 2011 09:14:59 +0200
 
 nobootloader (1.29) unstable; urgency=low
 
