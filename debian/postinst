@@ -206,8 +206,9 @@ case "$(archdetect)" in
 		kernel="/${boot}vmlinux"
 	fi
 
+	uparams=$(user-params) || true
 	template=nobootloader/confirmation_common
-	db_subst $template ROOT "root=${rootfs}"
+	db_subst $template ROOT "root=${rootfs} ${uparams}"
 	db_subst $template BOOT "${bootfs}"
 	db_subst $template KERNEL "${kernel}"
 	db_input high $template || true
