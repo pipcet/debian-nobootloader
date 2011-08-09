@@ -8,17 +8,25 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
 #
+#
+# Translations from iso-codes:
 # Russian L10N Team <debian-l10n-russian@lists.debian.org>, 2004.
 # Yuri Kozlov <yuray@id.ru>, 2004, 2005.
 # Dmitry Beloglazov <dm-guest@alioth.debian.org>, 2005.
+# Sergey Alyoshin <alyoshin.s@gmail.com>, 2011.
 # Yuri Kozlov <kozlov.y@gmail.com>, 2005, 2006, 2007, 2008.
-# Yuri Kozlov <yuray@komyakino.ru>, 2009.
+# Yuri Kozlov <yuray@komyakino.ru>, 2009, 2010, 2011.
+# Alastair McKinstry <mckinstry@debian.org>, 2004.
+# Mikhail Zabaluev <mhz@altlinux.org>, 2006.
+# Nikolai Prokoschenko <nikolai@prokoschenko.de>, 2004.
+# Pavel Maryanov <acid@jack.kiev.ua>, 2009,2010.
+# Yuri Kozlov <yuray@komyakino.ru>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2009-05-01 06:22+0400\n"
+"PO-Revision-Date: 2011-08-09 21:40+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
 "Language: ru\n"
@@ -97,8 +105,8 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"Это необходимо сделать только один раз. После этого, введите команду \"boot"
-"\" или перезагрузите компьютер, чтобы продолжить в только что установленной "
+"Это необходимо сделать только один раз. После этого, введите команду «boot» "
+"или перезагрузите компьютер, чтобы продолжить в только что установленной "
 "системе."
 
 #. Type: note
@@ -135,7 +143,7 @@ msgid ""
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
 "Это нужно сделать только один раз. Это позволит просто набирать команду "
-"\"boot_debian\" в приглашении CFE."
+"«boot_debian» в приглашении CFE."
 
 #. Type: note
 #. Description
