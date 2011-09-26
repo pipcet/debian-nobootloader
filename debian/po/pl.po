@@ -31,7 +31,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2011-09-18 21:28+0100\n"
+"PO-Revision-Date: 2011-09-26 10:46+0100\n"
 "Last-Translator: Marcin Owsiany <porridge@debian.org>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -45,35 +45,35 @@ msgstr ""
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr ""
+msgstr "Kontynuuj bez programu rozruchowego"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr ""
+msgstr "Montowanie /target/proc nie powiodło się"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr ""
+msgstr "Zamontowanie systemu plików proc na /target/proc nie powiodło się."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr ""
+msgstr "Sprawdź /var/log/messages lub wirtualną konsolę nr 4 po szczegóły."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr ""
+msgstr "Uwaga: Twój system może się nie uruchamiać!"
 
 #. Type: note
 #. Description
@@ -83,7 +83,7 @@ msgstr ""
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr ""
+msgstr "Ustawianie zmiennych firmware do automatycznego uruchamiania"
 
 #. Type: note
 #. Description
@@ -95,6 +95,10 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
+"By móc uruchamiać nowy system automatycznie, należy ustawić pewne zmienne w "
+"Genesi firmware. Po zakończeniu instalacji, system zostanie ponownie "
+"uruchomiony. Przy znaku zachęty firmware ustaw następujące zmienne by "
+"uaktywnić automatyczne uruchamianie:"
 
 #. Type: note
 #. Description
@@ -104,6 +108,8 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
+"Trzeba to wykonać tylko raz. Później wprowadź polecenie \"boot\" lub uruchom "
+"ponownie komputer by przejść do nowo zainstalowanego systemu."
 
 #. Type: note
 #. Description
@@ -112,7 +118,7 @@ msgstr ""
 msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
-msgstr ""
+msgstr "Alternatywnie możesz uruchomić jądro ręcznie wprowadzając:"
 
 #. Type: note
 #. Description
@@ -123,6 +129,10 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
+"By móc uruchamiać nowy system automatycznie, należy ustawić pewne zmienne w "
+"CFE. Po zakończeniu instalacji, system zostanie ponownie uruchomiony. Przy "
+"znaku zachęty firmware ustaw następujące zmienne by uprościć automatyczne "
+"uruchamianie:"
 
 #. Type: note
 #. Description
@@ -132,6 +142,8 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
+"Należy wykonać to tylko raz. Wprowadzenie tych ustawień pozwoli uruchomić "
+"system wprowadzając \"boot_debian\" przy znaku zachęty CFE."
 
 #. Type: note
 #. Description
@@ -141,13 +153,15 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
+"Jeśli wolisz by system uruchamiał się automatycznie, możesz oprócz "
+"powyższych ustawić następującą zmienną:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr ""
+msgstr "Nie zainstalowano programu rozruchowego"
 
 #. Type: note
 #. Description
@@ -157,6 +171,8 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
+"Nie zainstalowano programu rozruchowego, albo ponieważ go nie wybrano albo "
+"ponieważ Twoja architektura jeszcze go nie obsługuje."
 
 #. Type: note
 #. Description
@@ -166,3 +182,5 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
+"Trzeba będzie uruchamiać system ręcznie z użyciem jądra ${KERNEL}, z "
+"partycji ${BOOT}, przekazując ${ROOT} jako jego argument."
