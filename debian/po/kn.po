@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2011-11-27 23:24+0530\n"
+"PO-Revision-Date: 2012-01-24 19:34+0530\n"
 "Last-Translator: Prabodh C P <prabodh@fsmk.org>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
@@ -167,7 +167,7 @@ msgstr ""
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "ಯಾವುದೆ bootloader ಅನ್ನು "
+msgstr "ಯಾವುದೇ bootloader ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ"
 
 #. Type: note
 #. Description
@@ -177,8 +177,8 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"ಯಾವುದೆ ಬೂಟ್ ಲೋಡರ್ ಸಂಸ್ತಾಪಿಸಲಾಗಿಲ್ಲ ,ಎಕೆಂದರೆ ನೀವೇ ಹಾಗೆ ಆರಿಸಿದಿರಿ ಅಥವ ನಿಮ್ಮ "
-"architecture ಬೂಟ್ ಲೋಡರ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"
+"ಯಾವುದೆ ಬೂಟ್ ಲೋಡರ್ ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ ,ಎಕೆಂದರೆ ನೀವೇ ಹಾಗೆ ಆರಿಸಿದಿರಿ ಅಥವಾ ನಿಮ್ಮ "
+"ಯಂತ್ರವಿನಾಸ ಬೂಟ್ ಲೋಡರನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"
 
 #. Type: note
 #. Description
@@ -188,3 +188,5 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
+"ನೀವು ${BOOT}ವಿಭಜನೆಯಲ್ಲಿನ ${KERNEL} ಕರ್ನಲನ್ನು ಸ್ವತಃ ಬೂಟ್ ಮಾಡಬೇಕು ಮತ್ತು ${ROOT}ಅನ್ನು "
+"ಕರ್ನಲ್ ಪರಿಮಾಣವಾಗಿ ಹಾಯಿಸಬೇಕು."
