@@ -1,3 +1,13 @@
+nobootloader (1.34) unstable; urgency=low
+
+  * Team upload
+
+  [ Updated translations ]
+  * Galician (gl.po) by Jorge Barreiro
+  * Croatian (hr.po) by Tomislav Krznar
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 22 Jun 2012 06:47:28 +0200
+
 nobootloader (1.33) unstable; urgency=low
 
   * Team upload
