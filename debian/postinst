@@ -64,10 +64,10 @@ bootfs=$(mapdevfs $bootfs_devfs)
 
 case "$(archdetect)" in
     powerpc/chrp_pegasos)
-	kernel=$(ls /target/boot/vmlinuz-2.* | sed -e 's%/target/boot/%%')
+	kernel=$(ls /target/boot/vmlinuz-* | sed -e 's%/target/boot/%%')
 
 	if [ -z "$kernel" ]; then
-		kernelpath=$(ls /target/boot/vmlinux-2.* | sed -e 's%/target%%')
+		kernelpath=$(ls /target/boot/vmlinux-* | sed -e 's%/target%%')
 		version="${kernelpath#*vmlinux-}"
 		if [ "$version" ]; then
 			if apt-install mkvmlinuz; then
@@ -76,7 +76,7 @@ case "$(archdetect)" in
 				chroot /target /usr/sbin/mkvmlinuz "$version" "$kernelpath"
 			fi
 		fi
-		kernel=$(ls /target/boot/vmlinuz-2.* | sed -e 's%/target/boot/%%')
+		kernel=$(ls /target/boot/vmlinuz-* | sed -e 's%/target/boot/%%')
 	fi
 
 	partition_offset=1
@@ -148,7 +148,7 @@ case "$(archdetect)" in
 	    scsi,0)
 		path="/pci/scsi/disk@$bus,$target,$lun" ;;
 	    *)
-		path="<unknown path>" ;;
+		path="hd" ;;
 	esac
 
 	# map theidevice to the OF aliases from /proc/device-tree/aliases.
@@ -161,12 +161,12 @@ case "$(archdetect)" in
 		done
 	fi
 
-	bootcmd="boot ${path}:${part} ${boot}${kernel} root=${rootfs}"
+	bootcmd="boot ${path}:${part} ${boot}vmlinuz root=${rootfs}"
 
 	template=nobootloader/confirmation_powerpc_chrp_pegasos
 	db_subst $template KERNEL_BOOT "${bootcmd}"
 	db_subst $template OF_BOOT_DEVICE "${path}:${part}" 
-	db_subst $template OF_BOOT_FILE "${boot}${kernel} root=${rootfs}"
+	db_subst $template OF_BOOT_FILE "${boot}vmlinuz root=${rootfs}"
 	db_input high $template || true
 	;;
     powerpc/pasemi)
