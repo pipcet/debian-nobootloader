@@ -1,7 +1,11 @@
 nobootloader (1.35) UNRELEASED; urgency=low
 
+  [ Milan Kupcevic ]
   * Do not assume Linux kernel verison is 2.*
   * Use symlink 'vmlinuz' instead of full kernel name.
+
+  [ Christian Perrier ]
+  * Add myself to Uplaoders
 
  -- Milan Kupcevic <milan@physics.harvard.edu>  Tue, 17 Jul 2012 00:16:44 -0400
 
