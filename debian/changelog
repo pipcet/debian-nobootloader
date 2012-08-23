@@ -1,7 +1,7 @@
 nobootloader (1.35) unstable; urgency=low
 
   [ Milan Kupcevic ]
-  * Do not assume Linux kernel verison is 2.*
+  * Do not assume Linux kernel version is 2.*
   * Use symlink 'vmlinuz' instead of full kernel name.
   * Fallback to factory default HD firmware alias, not to <unknown device>
 
