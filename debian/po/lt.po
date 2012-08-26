@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2012-05-27 19:07+0300\n"
+"PO-Revision-Date: 2012-08-26 02:00+0300\n"
 "Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
@@ -48,14 +48,14 @@ msgstr "Tęsti be pradinio įkėliklio"
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "Nepavyko prijungti /target/proc"
+msgstr "Nepavyko prijungti „/target/proc“"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "Nepavyko prijungti 'proc' failų sistemos prie /target/proc."
+msgstr "Nepavyko prijungti „proc“ failų sistemos prie „/target/proc“."
 
 #. Type: error
 #. Description
@@ -70,7 +70,7 @@ msgstr ""
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Dėmesio: Jūsų sistema gali nepasikelti!"
+msgstr "Dėmesio: šio kompiuterio gali nebepavykti paleisti!"
 
 #. Type: note
 #. Description
@@ -80,7 +80,7 @@ msgstr "Dėmesio: Jūsų sistema gali nepasikelti!"
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Mikroprogramos (firmware) kintamųjų nustatymas automatiniam įkėlimui"
+msgstr "Nustatomi mikroprogramos (firmware) kintamieji automatiniam įkėlimui"
 
 #. Type: note
 #. Description
@@ -92,10 +92,10 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Kai kurie mikroprogramos Genesi kintamieji turi būti nustatyti, tam kad "
-"sistema galėtų būti automatiškai įkelta. Įdiegimo pabaigoje, sistema bus "
-"perkraunama. Esant mikroprogramos kvietimui,  nustatykite sekančius "
-"mikroprogramos kintamuosius, kad būtų galimas automatinis įkėlimas:"
+"Kad sistemą būtų galima automatiškai paleisti, turi būti nustatyta keletas "
+"„Genesi“ mikroprogramos kintamųjų. Įdiegimo pabaigoje sistema bus perleista. "
+"Kad įgalintumėte automatinį paleidimą, pamatę mikroprogramos raginimą, "
+"nustatykite šiuos mikroprogramos kintamuosius:"
 
 #. Type: note
 #. Description
@@ -105,8 +105,8 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"Jūs turite padaryti tai tik vieną kartą. Po to įveskite komandą \"boot\" "
-"arba perkraukite sistemą, tam kad pratęstumėte naujai įdiegtoje sistemoje."
+"Tai atlikti turėsite tik kartą. Baigę, įveskite komandą „boot“ arba "
+"perleiskite kompiuterį, ir galėsite mėgautis naujai įdiegta sistema."
 
 #. Type: note
 #. Description
@@ -116,8 +116,8 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Arba, galėsite įkelti branduolį rankiniu būdu, esant mikroprogramos "
-"kvietimui, įvesdami:"
+"Jeigu norite branduolį kaskart įkelti rankiniu būdu, tai galite atlikti, "
+"mikroprogramos raginimo ekrane įvesdami štai ką:"
 
 #. Type: note
 #. Description
@@ -128,10 +128,10 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"Kai kurie CFE kintamieji turi būti nustatyti, tam kad sistema galėtų būti "
-"automatiškai įkelta. Įdiegimo pabaigoje, sistema bus perkraunama. Esant "
-"mikroprogramos kvietimui, nustatykite sekančius mikroprogramos kintamuosius "
-"sistemos įkėlimo supaprastinimui:"
+"Kad sistemą būtų galima automatiškai paleisti, turi būti nustatyta keletas "
+"CFE kintamųjų. Įdiegimo pabaigoje sistema bus perleista. Kad "
+"supaprastintumėte sistemos paleidimą, pamatę mikroprogramos raginimą, "
+"nustatykite šiuos mikroprogramos kintamuosius:"
 
 #. Type: note
 #. Description
@@ -141,8 +141,8 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"Jums reikės tai atlikti tik vieną kartą. Tai suteiks galimybę, esant CFE "
-"kvietimui (prompt), tik įvesti komandą \"boot_debian\"."
+"Tai atlikti turėsite tik kartą. Tai suteiks galimybę CFE raginimo ekrane "
+"tiesiog įvesti komandą „boot_debian“."
 
 #. Type: note
 #. Description
@@ -152,8 +152,8 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"Jei pageidaujate automatinio įkėlimo kiekvieno paleidimo metu, šalia "
-"anksčiau paminėtų kintamųjų galite papildomai nustatyti sekantį kintamąjį:"
+"Jei pageidaujate automatinio sistemos paleidimo kaskart įjungus kompiuterį, "
+"šalia anksčiau paminėtų kintamųjų papildomai nustatykite ir šį:"
 
 #. Type: note
 #. Description
