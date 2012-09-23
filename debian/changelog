@@ -1,3 +1,10 @@
+nobootloader (1.36) unstable; urgency=low
+
+  [ Updated translations ]
+  * Lithuanian (lt.po) by Rimas Kudelis
+
+ -- Christian Perrier <bubulle@debian.org>  Sun, 23 Sep 2012 08:24:03 +0200
+
 nobootloader (1.35) unstable; urgency=low
 
   [ Milan Kupcevic ]
