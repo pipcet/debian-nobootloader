@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2013-04-16 05:30+0200\n"
+"PO-Revision-Date: 2013-04-17 18:08+0200\n"
 "Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
@@ -66,7 +66,7 @@ msgstr "Za pojedinosti provjerite /var/log/syslog ili četvrtu konzolu."
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Pozor: vaš sustav možda se ne može pokrenuti!"
+msgstr "Upozorenje: vaš sustav možda se ne može pokrenuti!"
 
 #. Type: note
 #. Description
@@ -112,7 +112,7 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Alternativno, moći ćete ručno bootati kernel tako da na firmware promptu "
+"Alternativno, moći ćete ručno učitati jezgru tako da na firmware promptu "
 "unesete:"
 
 #. Type: note
@@ -149,7 +149,7 @@ msgid ""
 "variable in addition to the ones above:"
 msgstr ""
 "Ako želite automatsko podizanje svaki puta, možete podesiti i sljedeću "
-"varijablu, uz one gorenavedene:"
+"varijablu, uz one gore navedene:"
 
 #. Type: note
 #. Description
@@ -167,7 +167,7 @@ msgid ""
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
 "Boot učitavač nije instaliran, ili zato što ste tako odredili, ili zato što "
-"vaša arhitektura još nije podržana od boot učitavača."
+"boot učitavač još ne podržava vašu arhitekturu."
 
 #. Type: note
 #. Description
@@ -177,5 +177,5 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"Morat ćete ručno podignuti sustav s kernelom ${KERNEL} na particiji ${BOOT}, "
-"te argumentom ${ROOT} proslijeđenim kernelu."
+"Morat ćete ručno podići sustav s jezgrom ${KERNEL} na particiji ${BOOT} te "
+"argumentom ${ROOT} proslijeđenim jezgri."
