@@ -1,10 +1,11 @@
-nobootloader (1.40) UNRELEASED; urgency=low
+nobootloader (1.40) unstable; urgency=low
 
+  [ Dmitrijs Ledkovs ]
   * Set debian source format to '3.0 (native)'.
   * Bump debhelper compat level to 9.
   * Set Vcs-* to canonical format.
 
- -- Dmitrijs Ledkovs <xnox@debian.org>  Fri, 07 Jun 2013 00:26:04 +0100
+ -- Christian Perrier <bubulle@debian.org>  Sat, 13 Jul 2013 14:22:02 +0200
 
 nobootloader (1.39) unstable; urgency=low
 
