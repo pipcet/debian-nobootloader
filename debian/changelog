@@ -1,3 +1,10 @@
+nobootloader (1.44) unstable; urgency=low
+
+  [ Updated translations ]
+  * Turkish (tr.po) by Mert Dirik
+
+ -- Christian Perrier <bubulle@debian.org>  Sat, 20 Sep 2014 12:40:53 +0200
+
 nobootloader (1.43) unstable; urgency=low
 
   [ Updated translations ]
