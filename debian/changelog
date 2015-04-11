@@ -1,9 +1,10 @@
-nobootloader (1.45) UNRELEASED; urgency=low
+nobootloader (1.45) unstable; urgency=low
 
+  [ Milan Kupcevic ]
   * Run update-initramfs to include reduced set of modules, thus reduce 
     vmlinuz size. (Closes: #782279)
 
- -- Milan Kupcevic <milan@physics.harvard.edu>  Thu, 09 Apr 2015 18:17:48 -0400
+ -- Christian Perrier <bubulle@debian.org>  Sat, 11 Apr 2015 08:20:18 +0200
 
 nobootloader (1.44) unstable; urgency=low
 
