@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2015-06-09 16:17+0200\n"
+"PO-Revision-Date: 2015-06-30 01:49+0200\n"
 "Last-Translator: Mert Dirik <mertdirik@gmail.com>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
@@ -50,16 +50,15 @@ msgstr "Önyükleyicisiz devam et"
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
-#, fuzzy
 msgid "Failed to mount /target/proc"
-msgstr "Disket sürücünün bağlanması başarısız"
+msgstr "/target/proc bağlanması başarısız"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr ""
+msgstr "/target/proc üzerine proc dosya sistemi bağlanması başarısız."
 
 #. Type: error
 #. Description
@@ -67,13 +66,14 @@ msgstr ""
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
+"Ayrıntılı bilgi için /var/log/syslog dosyasına veya 4 numaralı konsola bakın."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr ""
+msgstr "Uyarı: Sisteminiz açılamaz duruma gelebilir!"
 
 #. Type: note
 #. Description
@@ -83,25 +83,22 @@ msgstr ""
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr ""
+msgstr "Otomatik önyükleme için aygıt yazılımındaki değişkenler ayarlanıyor"
 
 #. Type: note
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:3001
-#, fuzzy
 msgid ""
 "Some variables need to be set in the Genesi firmware in order for your "
 "system to boot automatically.  At the end of the installation, the system "
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Sisteminizin otomatik olarak açılması için Netwinder NeTTrom aygıt "
-"yazılımındaki bazı değişkenlerin ayarlanması gerekiyor. Bu kurulum "
-"aşamasının sonunda sistem tekrar başlatılacak ve aygıt yazılımı otomatik "
-"önyükleme girişiminde bulunacaktır. Herhangi bir tuşa basarak bu işlemi "
-"sonlandırabilirsiniz. Daha sonra aşağıdaki komutları çalıştırmanızın "
-"gerekeceği NeTTrom komut sistemine gireceksiniz:"
+"Sisteminizin otomatik olarak açılması için Genesi aygıt yazılımındaki bazı "
+"değişkenlerin ayarlanması gerekiyor. Bu kurulum aşamasının sonunda sistem "
+"tekrar başlatılacak. Otomatik önyüklemeyi etkinleştirmek için aygıt komut "
+"isteminde aşağıdaki aygıt yazılımı değişkenlerini ayarlayın:"
 
 #. Type: note
 #. Description
@@ -111,6 +108,9 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
+"Bu işlemi sadece bir kere yapmanız gerekiyor. Sonraki durumlarda \"boot\" "
+"komutunu girin veya yeni kurulu sisteminizle devam etmek için sistemi "
+"yeniden başlatın."
 
 #. Type: note
 #. Description
@@ -120,23 +120,22 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
+"Alternatif olarak, aygıt komut isteminde şu satırı girerek çekirdeği elle "
+"önyüklemeniz de mümkündür:"
 
 #. Type: note
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:4001
-#, fuzzy
 msgid ""
 "Some variables need to be set in CFE in order for your system to boot "
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"Sisteminizin otomatik olarak açılması için Netwinder NeTTrom aygıt "
-"yazılımındaki bazı değişkenlerin ayarlanması gerekiyor. Bu kurulum "
-"aşamasının sonunda sistem tekrar başlatılacak ve aygıt yazılımı otomatik "
-"önyükleme girişiminde bulunacaktır. Herhangi bir tuşa basarak bu işlemi "
-"sonlandırabilirsiniz. Daha sonra aşağıdaki komutları çalıştırmanızın "
-"gerekeceği NeTTrom komut sistemine gireceksiniz:"
+"Sisteminizin otomatik olarak açılması için bazı değişkenlerin CFE'de "
+"ayarlanması gerekiyor. Kurulumun sonunda sistem tekrar başlatılacak. Sistem "
+"açılışını basitleştirmek için aygıt yazılımının komut isteminde aşağıdaki "
+"değişkenleri ayarlayın:"
 
 #. Type: note
 #. Description
@@ -146,6 +145,8 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
+"Bunu yalnızca bir kez yapmanız yeterli olacak. Bu CFE komut isteminde "
+"\"boot_debian\" komutunu vermenizi sağlar."
 
 #. Type: note
 #. Description
@@ -155,14 +156,15 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
+"Eğer her açılışta otomatik önyüklemeyi tercih ederseniz, yukarıdakilerin "
+"yanı sıra aşağıdaki değişkenleri de ayarlayabilirsiniz."
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
-#, fuzzy
 msgid "No boot loader installed"
-msgstr "Önyükleyicinin kurulacağı bölüm:"
+msgstr "Herhangi bir önyükleyici kurulu değil"
 
 #. Type: note
 #. Description
@@ -172,6 +174,8 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
+"Siz kurulmasını istemediğiniz için veya makinenizin ait olduğu mimari henüz "
+"bir önyükleyici desteklemediği için herhangi bir önyükleyici kurulmadı."
 
 #. Type: note
 #. Description
@@ -181,3 +185,5 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
+"${BOOT} bölümündeki ${KERNEL} çekirdeğini ${ROOT} çekirdek parametresiyle "
+"elle yüklemeniz gerekecek."
