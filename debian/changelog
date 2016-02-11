@@ -1,8 +1,9 @@
-nobootloader (1.47) UNRELEASED; urgency=medium
+nobootloader (1.47) unstable; urgency=medium
 
+  [ Colin Watson ]
   * Use HTTPS for Vcs-* URLs, and link to cgit rather than gitweb.
 
- -- Colin Watson <cjwatson@debian.org>  Fri, 29 Jan 2016 13:35:19 +0000
+ -- Christian Perrier <bubulle@debian.org>  Thu, 11 Feb 2016 19:09:33 +0100
 
 nobootloader (1.46) unstable; urgency=medium
 
