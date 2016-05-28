@@ -3,59 +3,41 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Amharic translation for debian-installer
-# This file is distributed under the same license as the debian-installer package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2008-05-01 11:22-0000\n"
-"Last-Translator: tegegne tefera <tefera@mekuria.com>\n"
-"Language-Team: Amharic\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "ተከላውን ያለ አስነሺ ቀጥል"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc ን መጫን አልተሳካም"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "የproc ፋይል ስርዓትን በ /target/proc መጫን አልተሳካም።"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "ለዝርዝሩ /var/log/syslog ወይም virtual console 4ን ይመልከቱ።"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "ማስጠንቀቂያ፦ ስርዓትዎን ቡት ማድረግ አይቻል ይሆናል!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -65,7 +47,7 @@ msgstr "ማስጠንቀቂያ፦ ስርዓትዎን ቡት ማድረግ አይ�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "በራስ እንዲነሳ የfirmware ተለዋጭ እሴቶችን በመሰየም ላይ"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -86,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"ይህንን ማደግ የሚያስፈልግዎት አንድ ጊዜ ብቻ ነው፡፡ ከዚያ በኋላ የ\"boot\" ትዕዛዝን በመስጠት ወይም እንደገና "
-"በማስነሳት አዲስ ወደ ተተከለው ስርዓትዎ ይግቡ፡፡"
 
 #. Type: note
 #. Description
@@ -96,21 +76,17 @@ msgstr ""
 msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
-msgstr "በfirmware ማስገቢያ ላይ ከርነሉን በማስገባት የማስነሳት ምርጫ ይኖሮታል፡፡"
+msgstr ""
 
 #. Type: note
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:4001
-#, fuzzy
 msgid ""
 "Some variables need to be set in CFE in order for your system to boot "
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"ስርዓትዎ ወደ ሊኒክስ በራስ እንዲገባ አንዳንድ ተለዋጮች በNetwinder NeTTrom firmware መሰየም አለባቸው፡፡"
-"በዚህ ተከላ መጨረሻ ስራዓቱ እንደገና ሲነሳ በራስ ለመነሳት ይሞክራል፡፡ማንኛውንም ቁልፍ በመጫን ይህንን ማስቆም "
-"ይችላሉ፡፡ ይህ ሲሆን ወደ NeTTrom የትዕዛዝ ማዕከል ይወርዱና የሚቀጥሉትን ትዕዛዞች ይፈጽማሉ፡፡"
 
 #. Type: note
 #. Description
@@ -135,7 +111,7 @@ msgstr ""
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "ምንም አስነሺ ፕሮግራም አልተተከለም"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -144,7 +120,7 @@ msgstr "ምንም አስነሺ ፕሮግራም አልተተከለም"
 msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
-msgstr "ምንም የቡት ጫኝ አልተተካለም። ምክንያቱም ላለመትከል መርጠዋል ወይም አስሊዎ ቡት ጫኝን አይደግፍም።"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -154,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"${BOOT} ክፋይ ላይ ያለውን ${KERNEL} አውራከዋኝና ${ROOT} ማለፊያቃልን በመጠቀም በእጅ ማስነሳት "
-"ያስፈልጎታል።"

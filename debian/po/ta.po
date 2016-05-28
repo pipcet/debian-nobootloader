@@ -3,48 +3,27 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of ta.po to Tamil
-# Tamil messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# drtvasudevan <agnihot3@gmail.com>, 2006.
-# Damodharan Rajalingam <rdamodharan@gmail.com>, 2006.
-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008.
-msgid ""
-msgstr ""
-"Project-Id-Version: ta\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2008-09-04 16:51+0530\n"
-"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
-"Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>\n"
-"Language: ta\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "பூட் துவக்கி இல்லாமல் தொடர்க."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc ஐ ஏற்றுதல் தோல்வியுற்றது"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "/target/proc இல் ப்ராக் கோப்பு அமைப்பை ஏற்றுதல் தோல்வியுற்றது"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -52,15 +31,13 @@ msgstr "/target/proc இல் ப்ராக் கோப்பு அமை�
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"/var/log/syslog அல்லது மெய்நிகர் முனையம் 4 (virtual console 4) ஐ விளக்கங்களுக்கு "
-"பார்க்கவும்."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "எச்சரிக்கை: உங்கள் கணினி துவக்க முடியாததாக இருக்கலாம்!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -70,7 +47,7 @@ msgstr "எச்சரிக்கை: உங்கள் கணினி த�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "தானியங்கி துவக்கத்திற்கு திறந்த ஸ்திர மென்பொருளின் மாறிலிகளைஅமைத்தல்"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -82,9 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"உங்கள் கணினி லினக்ஸ் க்கு தானாக துவங்க ஜெனசி திறந்த ஸ்திர மென்பொருளுக்கு சில மாறிலிகள் "
-"தேவை. நிறுவலின் இறுதியில் கணினி மீண்டும் துவக்கப் படும். ஜெனசி திறந்த ஸ்திர மென்பொருளின் "
-"தூண்டலில் பின்வரும் மாறிலிகளை அமைக்கவும்:"
 
 #. Type: note
 #. Description
@@ -94,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"இதை நீங்கள் ஒரு முறை மட்டுமே செய்யத் தேவை. அதன் பின் \"boot\" கட்டளையை உள்ளிடலாம் அல்லது "
-"மீண்டும் கணினியை துவக்குவதால் நிறுவலின் அடுத்த கட்டத்திற்கு போகலாம்."
 
 #. Type: note
 #. Description
@@ -105,8 +77,6 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"மாற்றாக நீங்கள் கீழ் கண்டதை மென்பொருளின் தூண்டலில்ை கையாயால் உள்ளீடு செய்து உள்கூற்றில் நுழைய "
-"இயலும்:"
 
 #. Type: note
 #. Description
@@ -117,9 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"உங்கள் கணினி லினக்ஸ் க்கு தானாக துவங்க சிஎஃப் இல் சில மாறிலிகள் தேவை. நிறுவலின் "
-"இறுதியில் கணினி மீண்டும் துவக்கப் படும். துவக்கத்தை எளிதாக்க ஸ்திர மென்பொருளின் தூண்டலில் "
-"பின்வரும் மாறிலிகளை அமைக்கவும்:"
 
 #. Type: note
 #. Description
@@ -129,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"இதை நீங்கள் ஒரு முறைதான் செய்ய வேண்டும். இது நீங்கள் சிஎஃப்ஈ தூண்டலில் வெறும் \"boot_debian"
-"\"கட்டளையை இட அனுமதிக்கிறது."
 
 #. Type: note
 #. Description
@@ -140,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"நீங்கள் ஒவ்வொரு முறையும் தானியங்கியாக துவக்க விரும்பினால் மேற்கண்டவற்றுடன் கீழ் வரும் மாறியை "
-"அமைக்கலாம்:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "துவக்கி ஏதும் நிறுவப் படவில்லை"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -158,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"நீங்கள் வேண்டாம் என முடிவு செய்ததாலோ அல்லது உங்கள் கட்டமைப்பு இன்னும் ஆதரவு தராததாலோ "
-"துவக்கி ஏதும் நிறுவப் படவில்லை."
 
 #. Type: note
 #. Description
@@ -169,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"நீங்கள் கைமுறையாக ${BOOT} பகிர்வில் உள்ள ${KERNEL} ஆல் ${ROOT} ஐ (kernel argument) "
-"உட்கூறு தரு மதிப்பாகக் கொண்டு துவக்க வேண்டும்."

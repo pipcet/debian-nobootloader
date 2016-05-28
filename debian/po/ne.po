@@ -3,66 +3,41 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_ne.po to Nepali
-# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
-# Shiva Pokharel <pokharelshiva@hotmail.com>, 2006.
-# Shyam Krishna Bal <shyam@mpp.org.np>, 2006.
-# Shiva Prasad Pokharel <pokharelshiva@hotmail.com>, 2006.
-# Shiva Pokharel <shiva@mpp.org.np>, 2007, 2008.
-# Shiva Prasad Pokharel <pokharelshiv@gmail.com>, 2007.
-# shyam krishna bal <shyamkrishna_bal@yahoo.com>, 2007.
-# Nabin Gautam <nabin@mpp.org.np>, 2007.
-# Shyam Krishna Bal <balshyam24@yahoo.com>, 2008.
-# Shiva Prasad Pokharel <shiva@mpp.org.np>, 2008, 2010, 2011.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer_packages_po_sublevel1_ne\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2011-02-22 17:11-0600\n"
-"Last-Translator: \n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n !=1\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "बुट लोडर बिना निरन्तर गर्नुहोस्"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc लाई माउन्ट गर्न असफल भयो"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "/target/proc मा proc फाइल प्रणाली माउन्ट गर्दै गरेको असफल भयो ।"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "विस्तृतका लागि /var/log/syslog जाच्नुहोस् वा अवास्तविक कन्सोल ४ लाई हेर्नुहोस् । "
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "चेतावनी: तपाईँको प्रणाली अनबुटेवल हुन सक्छ ! "
+msgstr ""
 
 #. Type: note
 #. Description
@@ -72,7 +47,7 @@ msgstr "चेतावनी: तपाईँको प्रणाली अ�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "स्वत बुट गर्नका लागि firmware चलहरू सेट गरिदै"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -84,9 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"तपाईँको प्रणालीलाई स्वत: बुट गर्नका लागि जेनिसी फर्मवेयरमा केही चलहरू सेट हुन आवश्यक छ । "
-"स्थापनाको समाप्तिमा, प्रणाली पुन: बुट हुनेछ । फर्मवेयर प्रोम्प्टमा, स्वत: बुटिङलाई सक्षम "
-"पार्न निम्न फर्मवेयर चलहरू सेट गर्नुहोस् । "
 
 #. Type: note
 #. Description
@@ -96,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"तपाईँले मात्र यो एकपटक गर्नु पर्दछ । त्यसपछि, तपाईँको नयाँ स्थापित प्रणालीमा प्रक्रिया "
-"गर्न \"boot\" आदेश प्रविष्ट गर्नुहोस् वा प्रणालीलाई पुन: बुट गर्नुहोस् ।"
 
 #. Type: note
 #. Description
@@ -107,8 +77,6 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"वैकल्पिक रुपमा, तपाईँ फर्मवेयर प्रोम्प्टमा, कर्नेललाई प्रविष्टि द्वारा म्यानुअल तरिकाले बुट "
-"गर्न सक्षम हुनु हुनेछ :"
 
 #. Type: note
 #. Description
@@ -119,9 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"तपाईँले प्रणाली स्वाचालित रूपमा बुट गराउनका लागि केही चललाई CFE मा सेट गर्न सक्नुहुन्छ । "
-"स्थापनाको समाप्तिमा, प्रणाली पुन: बुट हुनेछ । फर्मवेयर प्रोम्प्टमा, स्वत: बुटिङलाई सक्षम "
-"पार्न निम्न फर्मवेयर चलहरू सेट गर्नुहोस् : "
 
 #. Type: note
 #. Description
@@ -131,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"तपाईँले यो चाहि मात्र गर्नु पर्दछ। यसले तपाईँलाई मात्र यो आदेश CFE प्रयत्नमा "
-"\"boot_debian\" जारी गर्न सक्नुहुन्छ ।"
 
 #. Type: note
 #. Description
@@ -142,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"यदि तपाईँले हरेक पटक बुट हुँदा स्वाचालित रूपमा चाहनुहुन्छ भने तपाईँले माथि उल्लिखित चलमा "
-"निम्नलाई सेट गर्न सक्नुहुन्छ:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "कुनै बुट लोडर स्थापना भएको छैन"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -160,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"कुनै बुट लोडर स्थापना भएको छैन, या त तपाईँले नरोज्नु भएर वा तपाईँको निर्दिष्ट गरिएको "
-"वास्तुकलाले अहिले सम्म बुट लोडरलाई समर्थन नगरेर ।"
 
 #. Type: note
 #. Description
@@ -171,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"विभाजन ${BOOT} र ${ROOT} मा कर्नेल तर्कको रुपमा पास भए जस्तै ${KERNEL} सँगै तपाईँले "
-"म्यानुअल तरिकाले बुट गर्नु पर्नेछ ।"

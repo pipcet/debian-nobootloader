@@ -3,73 +3,41 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of pa.po to Punjabi
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt#
-#
-#
-# Translations from iso-codes:
-# Amanpreet Singh Alam <amanpreetalam@yahoo.com>, 2005.
-# Amanpreet Singh Alam <apreet.alam@gmail.com>, 2006.
-# A S Alam <aalam@users.sf.net>, 2006, 2007.
-# A S Alam <aalam@users.sf.net>, 2007, 2010.
-# Amanpreet Singh Alam <apreet.alam@gmail.com>, 2008.
-# Amanpreet Singh Brar <aalam@users.sf.net>, 2008.
-# Amanpreet Singh Alam <aalam@users.sf.net>, 2008, 2009.
-# Amanpreet Singh Alam[ਆਲਮ] <amanpreetalam@yahoo.com>, 2005.
-# A S Alam <aalam@users.sf.net>, 2009, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: pa\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2012-05-06 12:14+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
-"Language: pa\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "ਬੂਟ ਲੋਡਰ ਨਾਲ ਜਾਰੀ ਕਰੋ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc ਨੂੰ ਮਾਊਂਟ ਕਰਨ ਵਿੱਚ ਫੇਲ੍ਹ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "/target/proc ਤੇ proc ਫਾਇਲ ਸਿਸਟਮ ਮਾਊਂਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "ਵੇਰਵੇ ਵਾਸਤੇ /var/log/syslog ਦੀ ਚੈੱਕ ਕਰੋ ਜਾਂ ਆਰਜੀ ਕੰਸੋਲ 4 ਵੇਖੋ।"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "ਚੇਤਾਵਨੀ: ਤੁਹਾਡਾ ਸਿਸਟਮ ਨਾ ਬੂਟ ਹੋਣ ਯੋਗ ਹੋ ਸਕਦਾ ਹੈ!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -79,7 +47,7 @@ msgstr "ਚੇਤਾਵਨੀ: ਤੁਹਾਡਾ ਸਿਸਟਮ ਨਾ ਬੂ�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "ਆਟੋਮੈਟਿਕ ਬੂਟ ਕਰਨ ਲਈ firmware ਵੇਰੀਬਲ ਸੈੱਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -91,9 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"ਤੁਹਾਡੇ ਸਿਸਟਮ ਲਈ ਆਟੋਮੈਟਿਕ ਬੂਟ ਕਰਨ ਲਈ Genesi ਫਾਇਰਮਵੇਅਰ ਵਿੱਚ ਕੁਝ ਵੇਰੀਬਲ ਸੈੱਟ ਕੀਤੇ ਗਏ ਹਨ। "
-"ਇੰਸਟਾਲੇਸ਼ਨ ਦੇ ਖਤਮ ਹੋਣ ਸਮੇਂ ਸਿਸਟਮ ਨੂੰ ਮੁੜ-ਚਾਲੂ ਕੀਤਾ ਜਾਵੇਗਾ। ਫਾਇਰਮਵੇਅਰ ਪਰਾਉਂਟ ਸਮੇਂ ਆਟੋ-ਬੂਟਿੰਗ ਚਾਲੂ "
-"ਕਰਨ ਲਈ ਅੱਗੇ ਦਿੱਤੇ ਫਾਇਰਮਵੇਅਰ ਵੇਰੀਬਲ ਸੈੱਟ ਕਰੋ:"
 
 #. Type: note
 #. Description
@@ -103,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"ਤੁਹਾਨੂੰ ਇਹ ਸਿਰਫ ਇੱਕ ਵਾਰ ਕਰਨਾ ਪਵੇਗਾ। ਬਾਅਦ ਵਿੱਚ, \"boot\" ਕਮਾਂਡ ਦਿਓ ਜਾਂ ਸਿਸਟਮ ਨੂੰ ਅਗਲੀ "
-"ਇੰਸਟਾਲੇਸ਼ਨ ਜਾਰੀ ਕਰਨ ਲਈ ਮੁੜ ਚਲਾਓ।"
 
 #. Type: note
 #. Description
@@ -113,7 +76,7 @@ msgstr ""
 msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
-msgstr "ਬਦਲਵੇਂ ਰੂਪ ਵਿੱਚ ਤੁਸੀਂ ਫਾਇਰਵਾਇਰ ਪਰਾਊਟ ਉੱਤੇ ਕਰਨਲ ਨੂੰ ਹੇਠ ਦਿੱਤੇ ਮੁੱਲ ਦੇ ਕੇ ਬੂਟ ਕਰ ਸਕਦੇ ਹੋ:"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -124,9 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"ਤੁਹਾਡੇ ਸਿਸਟਮ ਨੂੰ ਆਟੋਮੈਟਿਕ ਬੂਟ ਕਰਨ ਲਈ CFE ਵਿੱਚ ਕੁਝ ਵੇਰੀਬਲ ਸੈੱਟ ਕਰਨ ਦੀ ਲੋੜ ਹੈ। ਇੰਸਟਾਲੇਸ਼ਨ ਖਤਮ "
-"ਹੋਣ ਉੱਤੇ, ਸਿਸਟਮ ਨੂੰ ਮੁੜ-ਸਟਾਰਟ ਕੀਤਾ ਜਾਵੇਗਾ। ਫਾਇਰਵੇਅਰ ਪਰਾਓਟ ਉੱਤੇ, ਬੂਟਿੰਗ ਨੂੰ ਸੌਖਾ ਕਰਨ ਵਾਸਤੇ ਅੱਗੇ "
-"ਦਿੱਤੇ ਵੇਰੀਬਲ ਸੈੱਟ ਕਰੋ:"
 
 #. Type: note
 #. Description
@@ -136,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"ਤੁਹਾਨੂੰ ਇਹ ਕੇਵਲ ਇੱਕ ਵਾਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ। ਇਹ ਤੁਹਾਨੂੰ CFE ਪਰਾਓਟ ਉੱਤੇ \"boot_debian\" ਕਮਾਂਡ ਦੇਣ "
-"ਲਈ ਮੱਦਦਗਾਰ ਹੈ।"
 
 #. Type: note
 #. Description
@@ -147,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"ਜੇ ਤੁਸੀਂ ਹਰ ਵਾਰ ਸ਼ੁਰੂ ਹੋਣ ਸਮੇਂ ਆਟੋ-ਬੂਟ (auto-boot) ਪਸੰਦ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਸੀਂ ਉੱਤੇ ਦਿੱਤੇ ਤੋਂ ਬਿਨਾਂ ਅੱਗੇ "
-"ਦਿੱਤੇ ਵੇਰੀਬਲ ਵੀ ਸੈੱਟ ਕਰ ਸਕਦੇ ਹੋ:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "ਕੋਈ ਬੂਟ ਲੋਡਰ ਇੰਸਟਾਲ ਨਹੀਂ"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -165,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"ਕੋਈ ਬੂਟ ਲੋਡਰ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤਾ ਹੈ, ਜਾਂ ਤਾਂ ਤੁਸੀਂ ਚੁਣਿਆ ਨਹੀਂ ਜਾਂ ਤੁਹਾਡਾ ਖਾਸ ਨਿਰਮਾਣ ਬੂਟ ਲੋਡਰ ਨੂੰ "
-"ਸਹਿਯੋਗ ਨਹੀਂ ਦਿੰਦਾ।"
 
 #. Type: note
 #. Description
@@ -176,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"ਤੁਹਾਨੂੰ ${BOOT} ਪਾਰਟੀਸ਼ਨ ਤੇ ${KERNEL} ਕਰਨਲ ਨਾਲ ਬੂਟ ਕਰਨ ਦੀ ਜਰੂਰਤ ਪਵੇਗੀ ਅਤੇ ਕਰਨਲ ਮੁੱਲ ਤੌਰ "
-"ਤੇ ${ROOT} ਦੇਣਾ ਪਵੇਗਾ।"

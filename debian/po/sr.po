@@ -3,64 +3,41 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Serbian/Cyrillic messages for debian-installer.
-# Copyright (C) 2010 Software in the Public Interest, Inc.
-# Copyright (C) 2008 THE cp6Linux'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the debian-installer package.
-# Karolina Kalic <karolina@janos.in.rs>, 2010.
-# Janos Guljas <janos@janos.in.rs>, 2010.
-# Veselin Mijušković <veselin.mijuskovic@gmail.com>, 2008.
-# , fuzzy
-#
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2010-07-18 01:37+0100\n"
-"Last-Translator: Janos Guljas <janos@janos.in.rs>\n"
-"Language-Team: Serbian/Cyrillic\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "Настави без покретачког програма"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "Неуспело монтирање /target/proc"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "Монтирање proc фајл система на /target/proc није успело."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "За детаље погледајте /var/log/syslog или виртуелну конзолу 4."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Упозорење: ваш систем можда неће моћи да се стартује!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -70,7 +47,7 @@ msgstr "Упозорење: ваш систем можда неће моћи д�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Постављање променљиве фирмвера за аутоматско стартовање"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -82,10 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Неке променљиве треба да буду постављене у Genesi фирмвер да би се ваш "
-"систем аутоматски стартовао. На крају инсталације систем ће се рестартовати. "
-"На промпту фирмвера поставите следеће променљиве да би омогућили аутоматско "
-"стартовање:"
 
 #. Type: note
 #. Description
@@ -95,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"Ово треба да урадите само једном. После тога, унесите команду „boot“ или "
-"рестартујте ситем да би наставили рад са новоинсталираним системом."
 
 #. Type: note
 #. Description
@@ -106,7 +77,6 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"У супротном, можете стартовати кернел ручно уносећи на промпт фирмвера:"
 
 #. Type: note
 #. Description
@@ -117,9 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"Неке променљиве треба да буду постављене у CFE-у да би се ваш систем "
-"аутоматски покренуо. На крају инсталације систем ће се рестартовати. На "
-"промпту фирмвера поставите следеће променљиве да би поједноставили покретање:"
 
 #. Type: note
 #. Description
@@ -129,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"Ово треба да урадите само једном. То вам омогућује да на CFE промпту само "
-"задате команду „boot_debian“."
 
 #. Type: note
 #. Description
@@ -140,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"Ако желите да се приликом сваког стартовања аутоматски покрене ваш Debian "
-"систем, можете поставити следећу променљиву поред горе наведених:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "Бут лоудер није инсталиран"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -158,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"Бут лоудер није инсталиран, или због вашег избора или због архитектуре која "
-"још увек не подржава бут лоудер."
 
 #. Type: note
 #. Description
@@ -169,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"Мораћете да бутујете ручно са ${KERNEL} кернелом на партицији ${BOOT} и "
-"${ROOT} као аргументима."

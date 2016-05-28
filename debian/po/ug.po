@@ -3,49 +3,27 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-#
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files
-#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-#
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2011-03-24 09:40+0600\n"
-"Last-Translator: Sahran <sahran.ug@gmail.com>\n"
-"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "قوزغىتىش يېتەكلىگۈچىسىز داۋاملاشتۇر"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc ئېگەرلەش مەغلۇپ بولدى"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "proc ھۆججەت سىستېمىسىنى /target/proc غا ئېگەرلەش مەغلۇپ بولدى."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -53,15 +31,13 @@ msgstr "proc ھۆججەت سىستېمىسىنى /target/proc غا ئېگەرل�
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"/var/log/syslog نى تەكشۈرۈڭ ياكى 4-مەۋھۇم كونترول سۇپىسىنى(console) كۆرۈپ "
-"تېخىمۇ كۆپ تەپسىلىي ئۇچۇرغا ئېرىشىڭ."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "ئاگاھلاندۇرۇش: سىستېمىڭىز قوزغالماسلىقى مۇمكىن!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -71,7 +47,7 @@ msgstr "ئاگاھلاندۇرۇش: سىستېمىڭىز قوزغالماسلى�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "ئۆزلۈكىدىن قوزغىلىش ئۈچۈن firmware نىڭ ئۆزگەرگۈچىلىرىنى تەڭشەۋاتىدۇ"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -83,11 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"سىستېمىنىڭ ئۆزلۈكىدىن قوزغىلىشى ئۈچۈن Genesi مۇقىم دېتال(firmware)نىڭ بىر "
-"قىسىم ئۆزگەرگۈچىلىرىنى تەڭشىشىڭىز لازىم. ئورنىتىش ئاخىرلاشقاندا سىستېما "
-"قايتا قوزغىلىدۇ. مۇقىم دېتال كۆرسەتمە بەلگىسى كۆرۈنگەندىن كېيىن، تۆۋەندىكى "
-"بىر قانچە مۇقىم دېتال ئۆزگىرىشچان قىممىتىنى بەلگىلەپ ئۆزلۈكىدىن قوزغىلىش "
-"ئىقتىدارىنى قوزغىتىڭ:"
 
 #. Type: note
 #. Description
@@ -97,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"بۇ جەريان پەقەت بىرلا قېتىم ئىجرا بولىدۇ. ئاندىن \"boot\" بۇيرۇقى كىرگۈزۈڭ "
-"ياكى قايتا قوزغىتىپ يېڭىدىن ئورناتقان سىستېمىغا كىرىڭ."
 
 #. Type: note
 #. Description
@@ -108,8 +77,6 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"ئۇنىڭدىن باشقا، مۇقىم دېتال كۆرسەتمە بەلگىسى ھالىتىدە تۆۋەندىكى مەزمۇننى "
-"كىرگۈزۈپ ئۆزىڭىز يادرونى قوزغاتسىڭىزمۇ بولىدۇ:"
 
 #. Type: note
 #. Description
@@ -120,11 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"سىستېمىنىڭ ئۆزلۈكىدىن قوزغىلىشى ئۈچۈن CFE غا بىر قىسىم ئۆزگەرگۈچى "
-"مىقدارلارنى تەڭشىشىڭىز لازىم. ئورنىتىش ئاخىرلاشقاندا سىستېما قايتا "
-"قوزغىلىدۇ. مۇقىم دېتال كۆرسەتمە بەلگىسى كۆرۈنگەندىن كېيىن، تۆۋەندىكى بىر "
-"قانچە مۇقىم دېتال ئۆزگىرىشچان قىممىتىنى بەلگىلەپ ئۆزلۈكىدىن قوزغىلىش "
-"ئىقتىدارىنى قوزغىتىڭ:"
 
 #. Type: note
 #. Description
@@ -134,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"بۇ جەريان بىرلا قېتىم ئىجرا قىلىنسىلا بولىدۇ.   CFE كۆرسەتمە بەلگىسى "
-"ھالىتىدە \"boot_debian\" نى ئىجرا قىلىشقا يول قويىدۇ."
 
 #. Type: note
 #. Description
@@ -145,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"ئەگەر ھەر قېتىم قوزغالغاندا ئۆزلۈكىدىن قوزغاتماقچى بولسىڭىز، يۇقىرىدا تىلغا "
-"ئېلىنغان ئۆزگەرگۈچىدىن سىرت تۆۋەندىكى ئۆزگەرگۈچىنى تەڭشەڭ:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "قوزغىتىش يېتەكلىگۈچى ئورنىتىلمىغان"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -163,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"قوزغىتىش يېتەكلىگۈچى ئورنىتىلمىغان، سەۋەبى سىز ئورناتماسلىقنى تاللىغان ياكى "
-"سىزنىڭ ئالاھىدە قاتتىق دېتال قۇرۇلمىڭىز قوزغىتىش يېتەكلىگۈچنى قوللىمايدۇ."
 
 #. Type: note
 #. Description
@@ -174,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"${BOOT} رايوندىكى ${KERNEL} يادرونى ئۆزىڭىز قوزغىتىشىڭىز ھەمدە ${ROOT} نى "
-"يادرو پارامېتىرى قىلىشىڭىز لازىم."
