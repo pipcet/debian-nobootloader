@@ -3,62 +3,20 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of bg.po to Bulgarian
-# Bulgarian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-#
-#
-# Translations from iso-codes:
-#     Translations taken from ICU SVN on 2007-09-09
-# Copyright (C)
-#   (translations from drakfw)
-#   - further translations from ICU-3.9
-# Translation of ISO 639 (language names) to Bulgarian
-# Copyright (C) 2010 Free Software Foundation, Inc.
-#
-# Copyright (C)
-#
-# Ognyan Kulev <ogi@fmi.uni-sofia.bg>, 2004, 2005, 2006.
-# Nikola Antonov <nikola@linux-bg.org>, 2004.
-#   Tobias Quathamer <toddy@debian.org>, 2007.
-#   Free Software Foundation, Inc., 2004.
-#   Georgi Georgiev <assenov_g@operamail.com>, 2001, 2004.
-#   Alastair McKinstry <mckinstry@computer.org>, 2001.
-#   Ognyan Kulev <ogi@fmi.uni-sofia.bg>, 2004.
-#   Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010.
-#   Roumen Petrov <transl@roumenpetrov.info>, 2010.
-# Damyan Ivanov <dmn@debian.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: bg\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Bulgarian <dict@ludost.net>\n"
-"Language: bg\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "Продължаване без програма за начално зареждане"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "Грешка при монтирането на /target/proc"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -66,7 +24,6 @@ msgstr "Грешка при монтирането на /target/proc"
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
 msgstr ""
-"Монтирането на файловата система proc в /target/proc завърши неуспешно."
 
 #. Type: error
 #. Description
@@ -74,15 +31,13 @@ msgstr ""
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Проверете /var/log/bootstrap.log или вижте виртуална конзола 4 за "
-"подробности."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Внимание: Вашата система може да стане неспособна за зареждане!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -92,7 +47,7 @@ msgstr "Внимание: Вашата система може да стане �
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Задаване на променливите на фърмуера за автоматично зареждане"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -104,10 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"За да може системата автоматично да зарежда Debian е необходимо някои "
-"променливи във фърмуера Genesi да бъдат променени. В края на инсталацията "
-"системата ще бъде рестартирана. На подканата на фърмуера Genesi задайте "
-"следните променливи, за да активирате автоматичното зареждане:"
 
 #. Type: note
 #. Description
@@ -117,9 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"Това е нужно да се направи само веднъж. След това въведете командата „boot“ "
-"или рестартирайте системата, за да продължите със следващите стъпки от "
-"инсталацията."
 
 #. Type: note
 #. Description
@@ -129,7 +77,6 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Като алтернатива, ще можете да зареждате ядрото ръчно чрез въвеждане на:"
 
 #. Type: note
 #. Description
@@ -140,10 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"За да може системата да зарежда автоматично Debian е необходимо в CFA да "
-"бъдат зададени някои променливи. В края на инсталацията системата ще бъде "
-"рестартирана. На подканата на фърмуера, задайте следните променливи за "
-"улесняване на началното зареждане:"
 
 #. Type: note
 #. Description
@@ -153,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"Настройката се прави еднократно и позволява да се зареди Дебиан с подаване "
-"на командата „boot_debian“ на подсказката на CFE."
 
 #. Type: note
 #. Description
@@ -164,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"Ако предпочитате първоначалното зареждане да става автоматично, към горните "
-"променливи добавете и следните:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "Не е инсталирана програма за начално зареждане"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -182,9 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"Не е инсталирана програма за начално зареждане или защото сте избрали да не "
-"се инсталира, или защото конкретната архитектура все още не поддържа "
-"програми за начално зареждане."
 
 #. Type: note
 #. Description
@@ -194,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"Ще трябва да зареждате с ръчно задаване на ядро ${KERNEL} от дял ${BOOT} с "
-"параметър към ядрото ${ROOT}."

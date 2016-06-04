@@ -3,71 +3,41 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of d-i.po to Gujarati
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-# Contributor:
-# Kartik Mistry <kartik.mistry@gmail.com>, 2006-2013
-#
-#
-# Translations from iso-codes:
-#   - translations from ICU-3.0
-#
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Kartik Mistry <kartik.mistry@gmail.com>, 2006, 2007, 2008.
-#   Ankit Patel <ankit644@yahoo.com>, 2009,2010.
-#   Sweta Kothari <swkothar@redhat.com>, 2009, 2010.
-msgid ""
-msgstr ""
-"Project-Id-Version: d-i\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Gujarati <team@utkarsh.org>\n"
-"Language: gu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "બૂટ લોડર વગર આગળ વધો"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc માઉન્ટ કરવામાં નિષ્ફળ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "/target/proc પર proc ફાઇલ સિસ્ટમ માઉન્ટ કરવામાં નિષ્ફળ ગયું"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "/var/log/syslog તપાસો અથવા માહિતી માટે વર્ચયુઅલ કોન્સોલ ૪ જુઓ."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "ચેતવણી: તમારી સિસ્ટમ કદાચ શરૂ થઇ શકશે નહી!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -77,7 +47,7 @@ msgstr "ચેતવણી: તમારી સિસ્ટમ કદાચ શ�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "આપમેળે બૂટ માટે ફર્મવેર ચલો ગોઠવો"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -89,9 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"તમારી સિસ્ટમને આપમેળે શરુ થતી બતાવવા માટે કેટલાક ચલ Genesi ફર્મવેરમાં ગોઠવવા પડશે. "
-"સ્થાપનનાં અંત પછી, સિસ્ટમ ફરી શરુ થશે. ફર્મવેર પ્રોમ્પ્ટ વખતે, નીચેનાં ફર્મવેર ચલો આપમેળે-શરુ "
-"કરવા માટે ગોઠવો:"
 
 #. Type: note
 #. Description
@@ -101,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"તમારે આ ફક્ત એક જ વખત કરવાની જરુર છે.  પાછળથી, \"boot\" આદેશ દાખલ કરો અથવા, તમારી "
-"નવી સ્થાપિત કરેલ સિસ્ટમમાં જવા માટે સિસ્ટમને ફરી શરુ કરો."
 
 #. Type: note
 #. Description
@@ -111,7 +76,7 @@ msgstr ""
 msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
-msgstr "બીજી રીતે, તમે જાતે કર્નલને ફર્મવેર પુછે ત્યારે, દાખલ કરીને બૂટ કરી શકો છો :"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -122,9 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"તમારી સિસ્ટમને આપમેળે શરુ કરવા માટે કેટલાક ચલ CFE ફર્મવેરમાં ગોઠવવા પડશે. સ્થાપનનાં અંત "
-"પછી, સિસ્ટમ ફરી શરુ થશે. ફર્મવેર વિશે પૂછતી વખતે, નીચેનાં ફર્મવેર ચલો શરુ કરવાનું સરળ "
-"બનાવવા માટે ગોઠવો:"
 
 #. Type: note
 #. Description
@@ -134,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"તમારે માત્ર એક વખત જ કરવાનું રહેશે. આ તમને CFE પૂછતી વખતે આદેશ \"boot_debian\" આપવાનું "
-"સક્રિય કરશે."
 
 #. Type: note
 #. Description
@@ -145,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"જો તમે દરેક શરૂઆત વખતે આપમેળે-શરૂ કરવાનું પસંદ કરશો તો, વધુમાં તમે નીચેનો ચલ ઉપરનાંની સાથે "
-"ગોઠવી શકો છો:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "કોઇ બૂટ લોડર સ્થાપિત નથી"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -163,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"કોઇ બૂટ લોડર સ્થાપિત કરેલ નથી, તમે કદાચ તેને પસંદ કરેલ નથી અથવા તમારુ વિશિષ્ટ બંધારણ બૂટ "
-"લોડરને હજી સુધી આધાર આપતું નથી."
 
 #. Type: note
 #. Description
@@ -174,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"તમારે ${KERNEL} કર્નલ સાથે પાર્ટિશન પર ${BOOT} અને ${ROOT} ને કર્નલ વિકલ્પ તરીકે "
-"રાખીને જાતે બૂટ કરવું પડશે."

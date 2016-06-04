@@ -3,60 +3,41 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of lo.po to Lao
-# Lao translation of debian-installer.
-# Copyright (C) 2006-2010 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Anousak Souphavanh <anousak@gmail.com>, 2010.
-msgid ""
-msgstr ""
-"Project-Id-Version: lo\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2012-04-25 09:05+0700\n"
-"Last-Translator: Anousak Souphavanh <anousak@gmail.com>\n"
-"Language-Team: Lao <lo@li.org>\n"
-"Language: lo\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "ຕິດຕັ້ງຕໍ່ໂດຍບໍ່ມີບູຕໂຫລດເດີ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "ລົ້ມແຫຼວທີ່ຈະຍຶດເປົ້າໝາຍ /target/proc"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "ເມົ້າທ໌ລະບົບແຟ້ມ proc ເທີງ /target/proc ບໍ່ສຳເລັດ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "ກະລຸນາກວດສອບ /var/log/syslog ຫຼືເບີ່ງທີ່ຄອນໂຊຄວາມແທ້ຈິງທີ 4 ເພື່ອເບິ່ງລາຍລະອຽດ."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "ຄຳເຕືອນ: ລະບົບຂອງທ່ານອາດບໍ່ສາມາດບູດໄດ້!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -66,7 +47,7 @@ msgstr "ຄຳເຕືອນ: ລະບົບຂອງທ່ານອາດບ�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "ການຕັ້ງຄ່າຕົວແປເຟີມແວສຳລັບການບູດອັດຕະໂນມັດ"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -78,9 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"ທ່ານຈຳເປັນຕ້ອງຕັ້ງຄ່າຕົວແປໃນເຟີມແວ Genesi ເພື່ອໃຫ້ລະບົບຂອງທ່ານສາມາດບູດໄດ້ໂດຍອັດຕະໂນມັດ "
-"ເມື່ອສຳເລັດຂະບວນການຕິດຕັ້ງແລ້ວ ລະບົບຈະເລີ່ມບູດໃໝ່ ທີ່ແຖວຄຳສັ່ງຂອງເຟີມແວ ໃຫ້ຕັ້ງຄ່າຂອງເຟີມແວຕໍ່ໄປນີ້ "
-"ເພື່ອທີ່ຈະສາມາດບູດໄດ້ໂດຍອັດຕະໂນມັດ:"
 
 #. Type: note
 #. Description
@@ -90,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"ການສັ່ງດັ່ງກ່າວພຽງເທື່ອດຽວກໍ່ພຽງພໍ ໃນເທື່ອຕໍ່ໄປ ພຽງປ້ອນຄຳສັ່ງ \"boot\" "
-"ຫຼືບູດເຄື່ອງໃໝ່ເພື່ອເຂົ້າສູ້ລະບົບເພື່ອຕິດຕັ້ງໃໝ່"
 
 #. Type: note
 #. Description
@@ -100,7 +76,7 @@ msgstr ""
 msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
-msgstr "ຫຼື ບໍ່ດັ່ງນັ້ນ ທ່ານກໍ່ສາມາດສັ່ງບູດເດີຄາເນວເອງໄດ້ໂດຍປ້ອນຄຳສັ່ງທີ່ແຖວຄຳສັ່ງຂອງເຟີມແວ:"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -111,8 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"ທ່ານຈຳເປັນຕ້ອງຕັ້ງຄ່າຕົວແປໃນ CFE ເພື່ອໃຫ້ລະບົບຂອງທ່ານບູດໄດ້ໂດຍອັດຕະໂນມັດ ເມື່ອສິ້ນສຸດຂະບວນການຕິດຕັ້ງ "
-"ລະບົບຈະເລີ່ມບູດໃໝ່ ທີ່ແຖວຄຳສັ່ງຂອງເຟີມແວ ໃຫ້ຕັ້ງຄ່າຕົວແປຕໍ່ໄປນີ້ ເພື່ອໃຫ້ບູດໄດ້ງ່າຍເຂົ້າ:"
 
 #. Type: note
 #. Description
@@ -122,7 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"ທ່ານຈະຕ້ອງເຮັດແບບນີ້ພຽງເທື່ອດຽວເທົ່ານັ້ນ ເພື່ອໃຫ້ທ່ານສາມາດ \"boot_debian\" ທີ່ແຖວຄຳສັ່ງ CFE ໄດ້"
 
 #. Type: note
 #. Description
@@ -132,14 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"ຖ້າທ່ານຢາກໃຫ້ບູດອັດຕະໂນມັດທຸກໆຄັ້ງທີ່ເປີດເຄື່ອງ ທ່ານສາມາດກຳນົດຕົວແປຕໍ່ໄປນີ້ເພີ່ມເຕີມຈາກຕົວແປຂ້າງຕົ້ນໄດ້:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "ບໍ່ໄດ້ຕິດຕັ້ງບູຣດໂຫຼດເດີ"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -149,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"ບໍ່ໄດ້ຕິດຕັ້ງບຣູດໂຫຼດເດີອາດເປັນເພາະທີທ່ານເລືອກທີ່ຈະບໍ່ຕິດຕັ້ງ "
-"ຫຼືເພາະສະຖາປັດຕະຍະກຳຂອງເຄື່ອງທ່ານຍັງບໍ່ຮັບຮອງບຣູດໂຫຼດເດີ"
 
 #. Type: note
 #. Description
@@ -160,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"ທ່ານຕ້ອງສັ່ງບຮູດເອງໂດຍໃຊ້ເຄເນຣວ ${KERNEL} ທີ່ພາທິຊັນ${BOOT} ໂດຍສົ່ງອາກິວເມນ${ROOT} "
-"ໃຫ້ກັບເຄເນຣວ"

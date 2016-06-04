@@ -3,65 +3,41 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-#
-#
-# Debian Installer master translation file template
-# Don't forget to properly fill-in the header of PO files
-#
-# Debian Installer translators, please read the D-I i18n documentation
-# in doc/i18n/i18n.txt
-#
-#
-# Danishka Navin <danishka@gmail.com>, 2009, 2011, 2012.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Sinhala <info@hanthana.org>\n"
-"Language: si\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "පණගැන්වුම් ප්‍රවේශකය නොමැතිව දිගටම කරගෙන යන්න"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc රැඳවීම අසාර්ථක විය"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "proc ගොනු පද්ධතිය /target/proc හි රැඳවීම අසාර්ථක විය."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "තොරතුරු සඳහා /var/log/syslog හෝ 4 වැනි අතත්‍ය කොන්සෝලය පිරික්සන්න."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "අවවාදයයි: ඔබේ පද්ධතිය නැවතආරම්භ කල නොහැකිවිය හැක!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -71,7 +47,7 @@ msgstr "අවවාදයයි: ඔබේ පද්ධතිය නැවත�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "ස්වයංක්‍රීය ආරම්භය සඳහා ෆර්ම්වෙයා විචල්‍ය සකසමින්"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -83,9 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"ඔබේ පද්ධතිය ස්වයංක්‍රීයව ඇරඹීම සඳහා Gensi ස්ථීරාංගයය තුළ ඇතැම් විචල්‍යයන් සැකසීමට සිදුවේ. "
-"ස්ථාපනය අවසානයේදී, පද්ධතිය නැවත ආරම්භ වනු ඇත. ස්ථීරාංග පොරොත්තුවේදී, ස්වයංක්‍රීය-ආරම්භය සක්‍රීය "
-"කිරීම සඳහා පහත ස්ථීරාංග විචල්‍යයන් සකසන්න:"
 
 #. Type: note
 #. Description
@@ -95,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"ඔබට මෙය කිරීමට සිදුවන්නේ එක් වරක් පමණි. ඉන් පසු, ඔබේ අභිනවයෙන් ස්ථාපිත පද්ධතිය වෙත පිවිසීම සඳහා "
-"පද්ධතිය නැවත ආරම්භ කිරීමට \"boot\" විධානය යොදන්න."
 
 #. Type: note
 #. Description
@@ -105,7 +76,7 @@ msgstr ""
 msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
-msgstr "අමතරව, ඔබට ස්ථීරාංග පොරොත්තුවේදී ඇතුලත් කිරීම මගින් කර්නලය ශ්‍රමිකව ආරම්ණ කිරීමටද හැක:"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -116,9 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"ඔබේ පද්ධතිය ස්වයංක්‍රීයව ඇරඹීම සඳහා CFE ස්ථීරාංගයය තුළ ඇතැම් විචල්‍යයන් සැකසීමට සිදුවේ. ස්ථාපනය "
-"අවසානයේදී, පද්ධතිය නැවත ආරම්භ වනු ඇත. ස්ථීරාංග පොරොත්තුවේදී, ආරම්භය වඩා සරල කිරීම සඳහා "
-"පහත ස්ථීරාංග විචල්‍යයන් සකසන්න:"
 
 #. Type: note
 #. Description
@@ -128,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"ඔබට මෙය සිදුකිරීමට සිදුවන්නේ එක්වරක් පමණි. මෙය ඔබට CFE පොරොත්තුවේදී \"boot_debian\" විධානය "
-"නිකුත් කිරීමට ඉඩ දෙයි."
 
 #. Type: note
 #. Description
@@ -139,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"ඔබ සෑම ආරම්භයකදීම ස්වයංක්‍රීය-ආරම්භය ලැබීමට කැමති නම්, පෙර ඒවාට අමතරව පහත විචල්‍යයන්ද "
-"සැකසිය හැක:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "කිසිඳු ආරම්භක පූරකයක් ස්ථාපනය කර නොමැත"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -157,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"කිසිඳු ආරම්භක පූරකයක් ස්ථාපනය කර නොමැති හෝ, ඔබ එය භාවිත කිරීමට තෝරා නොමැති හෝ එසේත් නොමැති "
-"නම් ඔබේ නිවේශති ආකෘතිය තවම ආරම්භක පූරකයට සහාය නොදක්වයි."
 
 #. Type: note
 #. Description
@@ -168,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"ඔබට ${BOOT} කොටස මත ${KERNEL} මගින් ශ්‍රමිකව ආරම්භ කර කර්නල තර්කයක් ලෙස ${ROOT} යෙදීමට "
-"සිදුවේ."

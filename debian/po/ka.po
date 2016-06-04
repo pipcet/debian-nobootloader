@@ -3,72 +3,41 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Georgian messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Aiet Kolkhi <aietkolkhi@gmail.com>, 2005, 2006, 2007, 2008.
-#
-# This file is maintained by Aiet Kolkhi <aietkolkhi@gmail.com>
-#
-# Includes contributions by Malkhaz Barkalaza <malxaz@gmail.com>,
-# Alexander Didebulidze <didebuli@in.tum.de>, Vladimer Sichinava <vlsichinava@gmail.com>
-# Taya Kharitonashvili <taya13@gmail.com>, Gia Shervashidze - www.gia.ge
-#
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Aiet Kolkhi <aietkolkhi@gmail.com>, 2008.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer.2006071\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2011-03-01 12:49+0400\n"
-"Last-Translator: Aiet Kolkhi <aietkolkhi@gmail.com>\n"
-"Language-Team: Georgian\n"
-"Language: ka\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "ინსტალაციის გაგრძელება პირველადი ჩამტვირთველის გარეშე"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "შეცდომა დამონტაჟებისას"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "proc ფაილური სისტემა ვერ დამონტაჟდა პუნქტზე /target/proc."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "დაწვრილებით იხილეთ /var/log/syslog ან ვირტუალური კონსოლი 4."
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "ყურადღება! თქვენი სისტემა შეიძლება აღარ ჩაიტვირთოს!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -78,7 +47,7 @@ msgstr "ყურადღება! თქვენი სისტემა �
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "ცვლადების დაყენება ლინუქსის ავტომატურად ჩატვირთვისათვის"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -90,10 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"იმისათვის, რომ სისტემა ავტომატურად ჩაიტვირთოს, საჭიროა გარკვეული ცვლადების "
-"ჩატვირთვა Genesi Firmware-ში. ჩატვირთვის დასრულების შემდეგ სისტემა "
-"გადაიტვირთება. Firmware-ს ბრძანებათა სისტემიდან შემდეგი ცვლადების დაყენება "
-"უზრუნველყოფს სისტემის ავტომატურად ჩატვირთვას:"
 
 #. Type: note
 #. Description
@@ -103,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"ამის გაკეთება მოგიწევთ მხოლოდ ერთხელ. შემდგომში შემდეგ ეტაპზე \"boot\" "
-"ბრძანების შესრულებით ან გადატვირთვით გადახვალთ."
 
 #. Type: note
 #. Description
@@ -114,8 +77,6 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"თუ არადა, შეგიძლიათ ბირთვის ჩატვირთვა ხელითაც. თუ firmware-ის ბრძანებათა "
-"სტრიქონში აკრიფავთ:"
 
 #. Type: note
 #. Description
@@ -126,10 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"იმისათვის, რომ სისტემა ავტომატურად ჩაიტვირთოს, საჭიროა გარკვეული ცვლადების "
-"ჩატვირთვა CFE-ში. ჩატვირთვის დასრულების შემდეგ სისტემა გადაიტვირთება. "
-"Firmware-ს ბრძანებათა სტრიქონზე დააყენეთ შემდეგი ცვლადები, რათა გამარტივდეს "
-"ჩატვირთვა:"
 
 #. Type: note
 #. Description
@@ -139,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"თქვენ ამის გაკეთება მხოლოდ ერთხელ მოგიწევთ. ეს საშუალებას გაძლევთ უბრალოდ "
-"გაუშვათ ბრძანება „boot_debian“ შესაბამის CFE ბრძანების სტრიქონზე."
 
 #. Type: note
 #. Description
@@ -150,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"თუ თქვენ ყოველი დაწყებისას ავტოჩატვირთვა გსურთ, ზემოაღნიშნულის გარდა "
-"შეგიძლიათ შემდეგი ცვლადის დაყენება:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "პირველადი ჩამტვირთველი არ არის ინსტალირებული"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -168,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"არ არის ინსტალირებული პირველადი ჩამტვირთველი - ან თქვენს მიერ იყო უარი "
-"ნათქვამი, ან თქვენი კომპიუტერი არ იძლევა ამის საშუალებას."
 
 #. Type: note
 #. Description
@@ -179,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"ამიტომ თქვენ ხელით უნდა ჩატვირთოთ ბირთვი ${KERNEL} დანაყოფზე ${BOOT} და "
-"გადასცეთ მას ${ROOT} ბირთვის არგუმენტად."

@@ -3,51 +3,34 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Tibetan translation for Debian Installer.
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2012-04-14 22:12+0600\n"
-"Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
-"Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
-"Language: bo\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "འགོ་འཛུགས་ཆས་མེད་པར་མུ་མཐུད"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
-#, fuzzy
 msgid "Failed to mount /target/proc"
-msgstr "མཉེན་སྡེར་བཀར་མ་ཐུབ་པ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
-#, fuzzy
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "/target/ ཐོག་ཏུ་རྨང་གཞིའི་སྒྲིག་འཇུག་བྱེད་མ་ཐུབ"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "ཞིབ་ཕྲ་སྐོར་/var/log/syslog ཡང་ན་རྟོགས་བཟོས་སྐྱོན་གསོ་སའི་གནས་༤ བ་ལ་ལྟོས"
+msgstr ""
 
 #. Type: error
 #. Description
@@ -127,9 +110,8 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
-#, fuzzy
 msgid "No boot loader installed"
-msgstr "སྒུལ་སློང་ཆས་སྒྲིག་འཇུག་ལ་སྤྱོད་པའི་སྒྲིག་ཆས："
+msgstr ""
 
 #. Type: note
 #. Description

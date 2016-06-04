@@ -3,55 +3,27 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# Kazakh messages for debian-installer.
-# Copyright (C) 2003 Software in the Public Interest, Inc.
-# This file is distributed under the same license as debian-installer.
-#
-# Talgat Daniyarov
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2011
-# Dauren Sarsenov <daur88@inbox.ru>, 2008, 2009
-#
-# Translations from iso-codes:
-#   Alastair McKinstry <mckinstry@debian.org>, 2004.
-#   Sairan Kikkarin <sairan@sci.kz>, 2006
-#   KDE Kazakh l10n team, 2006
-#   Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008, 2009, 2010
-#   Dauren Sarsenov <daur88@inbox.ru>, 2009
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: debian-installer\n"
-"Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
-"Language-Team: Kazakh\n"
-"Language: kk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #. Type: text
 #. Description
 #. Main menu item
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "Жүйелік жүктеушісіз жалғастыру"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc тіркеу сәтсіз"
+msgstr ""
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "Базалық жүйені /target/ бумасын орнату сәтсіз аяқталды."
+msgstr ""
 
 #. Type: error
 #. Description
@@ -59,14 +31,13 @@ msgstr "Базалық жүйені /target/ бумасын орнату сәт�
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Қосымша мәліметті /var/log/syslog файлынан не 4 виртуал консольдан қараңыз."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Ескерту: сіздің жүйеңіз жүктеле алмайтындай қалуы мүмкін!"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -76,7 +47,7 @@ msgstr "Ескерту: сіздің жүйеңіз жүктеле алмайт�
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Айнымалы firmware-ны автожүктеу үшін орнату"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -88,9 +59,6 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Жүйеңіз авто жүктелу үшін Genesi микрокод ішіне бірнеше айнымалы орнатылуы "
-"керек. Орнатудан кейін жүйе қайта қосылады. Микропрограмма сұранған кезде, "
-"жүктелуді ыңғайлату үшін келесі айнымалыларды енгізіңіз:"
 
 #. Type: note
 #. Description
@@ -100,8 +68,6 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"Сіз осыны бір-ақ рет жасауыңыз қажет. Одан кейін, жаңа орнатылған жүйеге "
-"кіру үшін, \"boot\" командасын енгізіңіз не жүйеңізді қайта жүктеңіз."
 
 #. Type: note
 #. Description
@@ -111,8 +77,6 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Басқаша, сіз ядроны қолмен жүктесеңіз де болады, ол үшін микрокод сұрауында "
-"келесіні енгізіңіз:"
 
 #. Type: note
 #. Description
@@ -123,9 +87,6 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"Жүйеңіз авто жүктелу үшін CFE ішіне бірнеше айнымалы орнатылуы керек. "
-"Орнатудан кейін жүйе қайта қосылады.  Микропрограмма сұранған кезде, "
-"жүктелуді ыңғайлату үшін келесі айнымалыларды енгізіңіз:"
 
 #. Type: note
 #. Description
@@ -135,8 +96,6 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"Сіз осыны бір-ақ рет жасауыңыз қажет. Осының нәтижесінде сізге CFE сұрауында "
-"тек \"boot_debian\" командасын орындау жеткілікті болады."
 
 #. Type: note
 #. Description
@@ -146,15 +105,13 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"Егер сіз әр қосылған кезде авто жүктеуді қаласаңыз, келесі айнымалыларды "
-"жоғарыдағыларға қоса орнатыңыз"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "Жүйелік жүктеуішті орнату қондырғысы:"
+msgstr ""
 
 #. Type: note
 #. Description
@@ -164,8 +121,6 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"Жүйелік жүктеуіш орнатылмаған, себебі сіз жүктеуішті орнатпауды ұйғардыңыз "
-"немесе оны компьютеріңізге орнату уақытша мүмкін емес."
 
 #. Type: note
 #. Description
@@ -175,5 +130,3 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"${KERNEL} ядросын ${BOOT} бөлімінен қолдан жегіп, аргумент ретінде ${ROOT} "
-"беруіңіз керек."
