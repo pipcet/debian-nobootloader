@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: be\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: \n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-12-21 15:13+0300\n"
+"Last-Translator: Viktar Siarheichyk <vics@fsfe.org>\n"
 "Language-Team: Debian l10n team for Belarusian <debian-l10n-belarusian@lists."
 "debian.org>\n"
 "Language: be\n"
@@ -40,14 +40,14 @@ msgstr ""
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr ""
+msgstr "Працягваць без загрузчыка"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr ""
+msgstr "Не атрымалася прымацаваць /target/proc"
 
 #. Type: error
 #. Description
@@ -55,20 +55,21 @@ msgstr ""
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
 msgstr ""
+"Не атрымалася прымацаваць файлавую сістэму proc да пункта /target/proc."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr ""
+msgstr "Падрабязнасці чытайце ў /var/log/syslog і на віртуальнай кансолі 4."
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr ""
+msgstr "Увага: Вашая сістэма можа быць няздольная да загрузкі!"
 
 #. Type: note
 #. Description
@@ -78,7 +79,7 @@ msgstr ""
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr ""
+msgstr "Наладка параметраў прашыўкі для аўтаматычнай загрузкі"
 
 #. Type: note
 #. Description
@@ -90,6 +91,10 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
+"Варта вызначыць некаторыя параметры для прашыўкі Genesi, каб Вашая сістэма "
+"магла аўтаматычна загружацца. Напрыканцы ўстаноўкі сістэма перазагрузіцца. У "
+"абалонцы прашыўкі вызначце наступныя параметры, каб дазволіць аўтаматычную "
+"загрузку: "
 
 #. Type: note
 #. Description
@@ -99,6 +104,8 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
+"Вам трэба зрабіць гэта толькі аднойчы. Потым увядзіце каманду \"boot\" або "
+"іншым чынам перазагрузіце сістэму, каб пачаць працу з Debian. "
 
 #. Type: note
 #. Description
@@ -107,7 +114,7 @@ msgstr ""
 msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
-msgstr ""
+msgstr "Як варыянт, Вы можаце загружаць ядро самастойна, уводзячы: "
 
 #. Type: note
 #. Description
@@ -118,6 +125,10 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
+"Варта вызначыць некаторыя параметры ў CFE, каб Вашая сістэма магла "
+"аўтаматычна загружацца. Напрыканцы ўстаноўкі сістэма перазагрузіцца. У "
+"абалонцы прашыўкі вызначце наступныя параметры, каб дазволіць аўтаматычную "
+"загрузку: "
 
 #. Type: note
 #. Description
@@ -127,6 +138,8 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
+"Вам трэба зрабіць гэта аднойчы. Проста запусціць каманду \"boot_debian\" ў "
+"абалонцы CFE."
 
 #. Type: note
 #. Description
@@ -136,13 +149,15 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
+"Калі вы аддаеце перавагу аўта-загрузцы пры кожным запуску, то можаце "
+"ўстанавіць наступныя пераменныя ў дадатак да тых, што вышэй:"
 
 #. Type: note
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr ""
+msgstr "Не ўсталявана ніякага загрузчыка"
 
 #. Type: note
 #. Description
@@ -152,6 +167,8 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
+"Не ўсталявана ніякага загрузчыка. Магчыма, гэта быў Ваш выбар пры ўстаноўцы. "
+"У іншым выпадку гэта значыць, што Ваша архітэктура не падтрымлівае загрузчык."
 
 #. Type: note
 #. Description
@@ -161,3 +178,5 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
+"Вам трэба самастойна загрузіць ядро ${KERNEL} з падзела ${BOOT}, перадаўшы "
+"радок ${ROOT} у якасці параметра ядра."
