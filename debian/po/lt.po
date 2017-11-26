@@ -19,21 +19,21 @@
 # Gediminas Paulauskas <menesis@delfi.lt>, 2000-2001.
 # Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
 # Kęstutis Biliūnas <kebil@kaunas.init.lt>, 2004, 2006, 2008, 2009, 2010.
-# Rimas Kudelis <rq@akl.lt>, 2012.
+# Rimas Kudelis <rq@akl.lt>, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2012-08-26 02:00+0300\n"
+"PO-Revision-Date: 2017-11-26 20:23+0000\n"
 "Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || n"
+"%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3;\n"
 
 #. Type: text
 #. Description
@@ -41,7 +41,7 @@ msgstr ""
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "Tęsti be pradinio įkėliklio"
+msgstr "Tęsti be paleidyklės"
 
 #. Type: error
 #. Description
@@ -80,7 +80,7 @@ msgstr "Dėmesio: šio kompiuterio gali nebepavykti paleisti!"
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Nustatomi mikroprogramos (firmware) kintamieji automatiniam įkėlimui"
+msgstr "Nustatomi mikroprogramos (firmware) kintamieji automatiniam paleidimui"
 
 #. Type: note
 #. Description
@@ -160,7 +160,7 @@ msgstr ""
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "Pradinis įkėliklis neįdiegtas"
+msgstr "Paleidyklė neįdiegta"
 
 #. Type: note
 #. Description
@@ -170,8 +170,8 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"Pradinis įkėliklis neįdiegtas, nes arba taip nusprendėte, arba Jūsų "
-"kompiuterio architektūrai dar nėra pradinio įkėliklio."
+"Paleidyklė neįdiegta, nes arba taip nusprendėte, arba Jūsų kompiuterio "
+"architektūrai dar nėra paleidyklės."
 
 #. Type: note
 #. Description
@@ -182,4 +182,4 @@ msgid ""
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
 "Jums teks atlikti įkeltį rankiniu būdu, naudojant branduolį ${KERNEL}, "
-"esantį disko skirsnyje ${BOOT}, ir perduodant jam parametrą ${ROOT}."
+"esantį disko skaidinyje ${BOOT}, ir perduodant jam parametrą ${ROOT}."
