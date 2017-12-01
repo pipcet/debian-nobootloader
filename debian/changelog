@@ -1,3 +1,11 @@
+nobootloader (1.48) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Norwegian Nynorsk (nn.po) by Allan Nordhøy
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 30 Nov 2017 21:38:51 +0100
+
 nobootloader (1.47) unstable; urgency=medium
 
   [ Colin Watson ]
