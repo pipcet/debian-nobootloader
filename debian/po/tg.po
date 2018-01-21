@@ -9,17 +9,17 @@
 #
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2013-12-03 12:47+0500\n"
+"PO-Revision-Date: 2018-01-21 20:21+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
-"Language: Tajik\n"
+"Language: tg\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,7 +45,7 @@ msgstr "/target/proc васл карда нашуд"
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "Системаи файлии proc дар /target/proc бо нокомӣ дучор шуд."
+msgstr "Низоми файлии proc дар /target/proc бо нокомӣ дучор шуд."
 
 #. Type: error
 #. Description
@@ -61,7 +61,7 @@ msgstr ""
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Огоҳӣ: Эҳтимол аст, ки системаи шумо худроҳандозӣ немешавад!"
+msgstr "Огоҳӣ: Эҳтимол аст, ки низоми шумо худроҳандозӣ немешавад!"
 
 #. Type: note
 #. Description
@@ -83,9 +83,9 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Барои ба таври худкор роҳандозӣ шудани системаи шумо, баъзе тағйирёбандаҳо "
+"Барои ба таври худкор роҳандозӣ шудани низоми шумо, баъзе тағйирёбандаҳо "
 "бояд дар нармафзори дарунсохти Genesi таъин карда шаванд.  Дар охири "
-"насбкунӣ системаи шумо бозоғозӣ мешавад.  Дар сатри фармони нармафзори "
+"насбкунӣ низоми шумо бозоғозӣ мешавад.  Дар сатри фармони нармафзори "
 "дарунсохт барои фаъол кардани роҳандозии худкор тағйирёбандаҳои зеринро "
 "таъин кунед:"
 
@@ -98,8 +98,8 @@ msgid ""
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
 "Ба шумо иҷрои ин амал танҳо як маротиба лозим мешавад.  Баъдан, фармони "
-"\"boot\"-ро ворид кунед, ё ки системаро бозоғозӣ намоед, то ин ки ба "
-"системаи насбшудаи нави худ гузаред."
+"\"boot\"-ро ворид кунед, ё ки низомро бозоғозӣ намоед, то ин ки ба низоми "
+"насбшудаи нави худ гузаред."
 
 #. Type: note
 #. Description
@@ -121,10 +121,10 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"Барои ба таври худкор бор шудани системаи шумо, баъзе тағйирёбандаҳо бояд "
-"дар CFE таъин шуда бошанд. Дар охири насбкунӣ, система бозоғозӣ мешавад. Дар "
-"сатри фармони нармафзори дарунсохт барои осон кардани роҳандозӣ "
-"тағйирёбандаҳои зеринро таъин кунед:"
+"Барои ба таври худкор бор шудани низоми шумо, баъзе тағйирёбандаҳо бояд дар "
+"CFE таъин шуда бошанд. Дар охири насбкунӣ, низом бозоғозӣ мешавад. Дар сатри "
+"фармони нармафзори дарунсохт барои осон кардани роҳандозӣ тағйирёбандаҳои "
+"зеринро таъин кунед:"
 
 #. Type: note
 #. Description
