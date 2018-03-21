@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2018-03-19 21:38+0000\n"
+"PO-Revision-Date: 2018-03-21 17:01+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -179,10 +179,9 @@ msgstr ""
 #. Description
 #. :sl3:
 #: ../nobootloader.templates:5001
-#, fuzzy
 msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"אתה צריך לאתחל ידנית עם הליבה ${KERNEL} על המחיצה ${BOOT} כאשר הפרמטר "
-"${ROOT} מועבר לליבה."
+"עליך לאתחל ידנית עם הליבה ${KERNEL} על המחיצה ${BOOT} עם העברת המשתנה "
+"${ROOT} לליבה."
