@@ -1,3 +1,10 @@
+nobootloader (1.52) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 03 Apr 2018 18:19:21 +0200
+
 nobootloader (1.51) unstable; urgency=medium
 
   [ Updated translations ]
