@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2018-03-21 17:01+0000\n"
+"PO-Revision-Date: 2018-06-14 08:38+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -88,16 +88,15 @@ msgstr "הגדרת משתני קושחה (firmware) לטובת אתחול אוט
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:3001
-#, fuzzy
 msgid ""
 "Some variables need to be set in the Genesi firmware in order for your "
 "system to boot automatically.  At the end of the installation, the system "
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"כמה משתנים צריכים להיקבע בקושחת Genesi כדי שהמערכת שלך תאותחל אוטומטית. בסוף "
-"ההתקנה, המערכת שלך תאותחל מחדש. בבקשת הקלט של קושחת Genesi, תוכל לקבוע את "
-"המשתנים הבאים כדי לאפשר אתחול אוטומטי:"
+"את חלק מהמשתנים יש להגדיר בקושחת Genesi כדי שהמערכת שלך תאותחל אוטומטית. "
+"בסיום ההתקנה, המערכת שלך תופעל מחדש. בבקשת הקלט של קושחת Genesi, יש להגדיר "
+"את המשתנים הבאים כדי לאפשר אתחול אוטומטי:"
 
 #. Type: note
 #. Description
@@ -125,15 +124,14 @@ msgstr ""
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:4001
-#, fuzzy
 msgid ""
 "Some variables need to be set in CFE in order for your system to boot "
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"כמה משתנים צריכים להיקבע ב-CFE כדי שהמערכת שלך תאותחל אוטומטית. בסוף ההתקנה, "
-"המערכת שלך תאותחל מחדש. בבקשת הקלט של קושחת ה-CFE, קבע ערכים למשתנים הבאים "
-"כדי לפשט את האתחול:"
+"את חלק מהמשתנים יש להגדיר ב־CFE כדי שהמערכת שלך תאותחל אוטומטית. בסיום "
+"ההתקנה, המערכת שלך תופעל מחדש. בבקשת הקלט של קושחת ה־CFE, יש להגדיר ערכים "
+"למשתנים הבאים כדי לפשט את האתחול:"
 
 #. Type: note
 #. Description
