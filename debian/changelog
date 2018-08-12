@@ -1,8 +1,14 @@
-nobootloader (1.53) UNRELEASED; urgency=medium
+nobootloader (1.53) unstable; urgency=medium
 
+  * Team upload
+
+  [ Cyril Brulebois ]
   * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
 
- -- Cyril Brulebois <kibi@debian.org>  Fri, 27 Apr 2018 03:43:03 +0200
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 12 Aug 2018 11:12:13 +0200
 
 nobootloader (1.52) unstable; urgency=medium
 
