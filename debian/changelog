@@ -1,8 +1,12 @@
-nobootloader (1.54) UNRELEASED; urgency=medium
+nobootloader (1.54) unstable; urgency=medium
+  * Team upload
 
   * Remove trailing whitespaces from changelog file, to fix lintian tag.
 
- -- Holger Wansing <hwansing@mailbox.org>  Sun, 13 Jan 2019 17:33:12 +0100
+  [ Updated translations ]
+  * Kazakh (kk.po) by Baurzhan Muftakhidinov
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 10 Feb 2019 11:34:13 +0100
 
 nobootloader (1.53) unstable; urgency=medium
 
