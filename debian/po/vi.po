@@ -9,16 +9,19 @@
 # Jean Christophe André <progfou@gmail.com>
 # Vũ Quang Trung <vu.quang.trung@auf.org>
 # Trịnh Minh Thành <tmthanh@yahoo.com>
+# Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
+# Hai-Nam Nguyen <hainam@jcisio.com>, 2012
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer Level 1\n"
+"Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2010-09-28 18:01+0930\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"PO-Revision-Date: 2019-02-27 14:34+0700\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
+"Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,21 +34,21 @@ msgstr ""
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "Tiếp tục không có bộ nạp khởi động"
+msgstr "Tiếp tục không có bộ tải khởi động"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "Việc lắp « /target/proc » bị lỗi"
+msgstr "Việc lắp “/target/proc” bị lỗi"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "Việc lắp hệ thống tập tin proc vào « /target/proc » bị lỗi."
+msgstr "Việc lắp hệ thống tập tin proc vào “/target/proc” bị lỗi."
 
 #. Type: error
 #. Description
@@ -53,7 +56,7 @@ msgstr "Việc lắp hệ thống tập tin proc vào « /target/proc » bị l�
 #: ../nobootloader.templates:2001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Xem bản ghi hệ thống « /var/log/syslog » hoặc bàn giao tiếp ảo 4 để tìm chi "
+"Xem bản ghi hệ thống “/var/log/syslog” hoặc bàn giao tiếp ảo 4 để tìm chi "
 "tiết."
 
 #. Type: error
@@ -61,7 +64,7 @@ msgstr ""
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Cảnh báo : hệ thống của bạn có thể không có khả năng khởi động !"
+msgstr "Cảnh báo: hệ thống của bạn có thể không có khả năng khởi động!"
 
 #. Type: note
 #. Description
@@ -71,7 +74,7 @@ msgstr "Cảnh báo : hệ thống của bạn có thể không có khả năng 
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Đang đặt các biến phần vững để tự động khởi động"
+msgstr "Đang đặt các biến phần dẻo (firmware) để tự động khởi động"
 
 #. Type: note
 #. Description
@@ -83,9 +86,10 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Một số biến cần phải được đặt trong phần vững Genesi, để hệ thống khởi động "
-"tự động. Sau khi cài đặt xong, hệ thống sẽ khởi động lại. Tại dấu nhắc phần "
-"vững, hãy đặt những biến phần vững sau để bật khả năng khởi động tự động:"
+"Một số biến cần phải được đặt trong phần dẻo (firmware) Genesi, để hệ thống "
+"khởi động tự động. Sau khi cài đặt xong, hệ thống sẽ khởi động lại. Tại dấu "
+"nhắc phần dẻo, hãy đặt những biến phần dẻo sau để bật khả năng khởi động tự "
+"động:"
 
 #. Type: note
 #. Description
@@ -95,7 +99,7 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"Bạn cần phải làm việc này chỉ một lần. Sau đó, hãy nhập lệnh « boot » (khởi "
+"Bạn cần phải làm việc này chỉ một lần. Sau đó, hãy nhập lệnh “boot” (khởi "
 "động) hoặc khởi động lại hệ thống để tiếp tục đến hệ thống mới cài đặt."
 
 #. Type: note
@@ -106,7 +110,8 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Hoặc bạn có thể tự khởi động hạt nhân bằng cách nhập ở dấu nhắc phần vững:"
+"Cách khác là bạn có thể tự khởi động hạt nhân bằng cách nhập ở dấu nhắc phần "
+"dẻo (firmware):"
 
 #. Type: note
 #. Description
@@ -118,8 +123,8 @@ msgid ""
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
 "Một số biến cần phải được đặt trong CFE để hệ thống tự động khởi động. Cài "
-"đặt xong thì hệ thống sẽ khởi động lại. Tại dấu nhắc phần vững, hãy đặt "
-"những biến phần vững sau để làm đơn giản tiến trình khởi động:"
+"đặt xong thì hệ thống sẽ khởi động lại. Tại dấu nhắc phần dẻo (firmware), "
+"hãy đặt những biến phần dẻo sau để làm đơn giản tiến trình khởi động:"
 
 #. Type: note
 #. Description
@@ -129,8 +134,8 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"Chỉ cần làm việc này một lần. Nó cho bạn có khả năng chỉ chạy câu lệnh « "
-"boot_debian » ở dấu nhắc CFE."
+"Chỉ cần làm việc này một lần. Nó cho bạn có khả năng chỉ chạy câu lệnh "
+"“boot_debian” ở dấu nhắc CFE."
 
 #. Type: note
 #. Description
