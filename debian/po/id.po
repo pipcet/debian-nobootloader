@@ -16,7 +16,9 @@
 # * I Gede Wijaya S (gwijayas@yahoo.com), 2004.
 # * Arief S F (arief@gurame.fisika.ui.ac.id), 2004-2007.
 # * Setyo Nugroho (setyo@gmx.net), 2004.
-# Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2008-2011.
+# * Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2008-2011.
+# * Al Qalit <qal.smith@gmail.com>, 2018.
+# * Andika Triwidada <andika@gmail.com>, 2018.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2002.
@@ -32,15 +34,16 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2012-02-13 03:15+0700\n"
-"Last-Translator: Mahyuddin Susanto <udienz@ubuntu.com>\n"
+"PO-Revision-Date: 2019-03-11 16:03+0000\n"
+"Last-Translator: Muhammad Rifqi Priyo Susanto "
+"<muhammadrifqipriyosusanto@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
-"Language: \n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Type: text
 #. Description
@@ -76,7 +79,7 @@ msgstr "Periksa /var/log/syslog atau lihat konsol maya no. 4."
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Perhatian: Sistem Anda mungkin tidak dapat diboot!"
+msgstr "Peringatan: Sistem Anda mungkin tidak dapat dibut!"
 
 #. Type: note
 #. Description
@@ -86,7 +89,7 @@ msgstr "Perhatian: Sistem Anda mungkin tidak dapat diboot!"
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Menata variabel firmware untuk boot otomatis"
+msgstr "Menata variabel firmware untuk but otomatis"
 
 #. Type: note
 #. Description
@@ -99,9 +102,9 @@ msgid ""
 "to enable auto-booting:"
 msgstr ""
 "Beberapa variabel perlu diatur pada Firmware Genesi agar sistem Anda dapat "
-"booting secara otomatis. Pada akhir instalasi, sistem akan boot-ulang. Pada "
-"prompt Firmware, atur variabel FIrmware berikut ini untuk menghipupkan "
-"booting otomatis:"
+"but secara otomatis. Pada akhir pemasangan, sistem akan but ulang. Pada "
+"prompt firmware, atur variabel firmware berikut ini untuk menyalakan but "
+"otomatis:"
 
 #. Type: note
 #. Description
@@ -112,7 +115,7 @@ msgid ""
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
 "Anda hanya perlu melakukan ini sekali. Setelah itu, masukkan perintah \"boot"
-"\" atau boot-ulang sistem untuk memproses sistem baru Anda."
+"\" atau but ulang sistem untuk menggunakan sistem baru Anda."
 
 #. Type: note
 #. Description
@@ -122,8 +125,8 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Alternatif lain, Anda dapat melakukan boot secara manual dengan mengetik "
-"pada prompt:"
+"Cara lainnya, Anda dapat melakukan but secara manual dengan mengetik pada "
+"prompt firmware:"
 
 #. Type: note
 #. Description
@@ -134,9 +137,9 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"Beberapa variabel perlu diatur di CFE agar sistem Anda dapat booting secara "
-"otomatis. Pada akhir pemasangan, sistem akan diboot-ulang. Pada prompt "
-"firmware, atur variabel berikut ini untuk menyingkat proses booting:"
+"Beberapa variabel perlu diatur dalam CFE agar sistem Anda dapat but secara "
+"otomatis. Pada akhir pemasangan, sistem akan dibut ulang. Pada prompt "
+"firmware, atur variabel berikut ini untuk menyingkat proses but:"
 
 #. Type: note
 #. Description
@@ -147,7 +150,7 @@ msgid ""
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
 "Anda hanya perlu melakukan ini sekali. Hal ini akan untuk memudahkan Anda "
-"booting sistem dengan mengetikkan \"boot_debian\" pada prompt CFE."
+"but sistem dengan mengetikkan \"boot_debian\" pada prompt CFE."
 
 #. Type: note
 #. Description
@@ -157,8 +160,8 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"Jika Anda lebih cenderung memakai proses boot-otomatis, Anda dapat "
-"menambahkan variable berikut ini:"
+"Jika Anda lebih cenderung memakai proses but otomatis, Anda dapat "
+"menambahkan variabel berikut ini:"
 
 #. Type: note
 #. Description
