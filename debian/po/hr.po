@@ -15,22 +15,23 @@
 #   Krunoslav Gernhard, 2004
 #   Vladimir Vuksan <vuksan@veus.hr>, 2000.
 #   Vlatko Kosturjak, 2001
-# Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013.
+#   Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013, 2014, 2015.
+#   Valentin Vidic <Valentin.Vidic@CARNet.hr>, 2017
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2009-05-29 22:50+0000\n"
-"PO-Revision-Date: 2013-04-17 18:08+0200\n"
-"Last-Translator: Tomislav Krznar <tomislav.krznar@gmail.com>\n"
+"PO-Revision-Date: 2019-07-04 17:02+0000\n"
+"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. Type: text
 #. Description
@@ -38,14 +39,14 @@ msgstr ""
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "Nastavi bez boot učitavača"
+msgstr "Nastavak bez učitača pokretanja"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "Montiranje /target/proc nije uspjelo"
+msgstr "Neuspjelo montiranje /target/proc"
 
 #. Type: error
 #. Description
@@ -66,7 +67,7 @@ msgstr "Za pojedinosti provjerite /var/log/syslog ili četvrtu konzolu."
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Upozorenje: vaš sustav možda se ne može pokrenuti!"
+msgstr "Upozorenje: Vaš sustav se možda neće moći pokrenuti!"
 
 #. Type: note
 #. Description
@@ -76,7 +77,7 @@ msgstr "Upozorenje: vaš sustav možda se ne može pokrenuti!"
 #. :sl4:
 #: ../nobootloader.templates:3001 ../nobootloader.templates:4001
 msgid "Setting firmware variables for automatic boot"
-msgstr "Postavljanje 'firmware' varijabli za automatsko podizanje sustava"
+msgstr "Postavljanje varijabli firmvera za automatsko pokretanje sustava"
 
 #. Type: note
 #. Description
@@ -88,10 +89,10 @@ msgid ""
 "will reboot.  At the firmware prompt, set the following firmware variables "
 "to enable auto-booting:"
 msgstr ""
-"Kako bi se vaš sustav automatski podizao, neke varijable moraju biti "
-"postavljene u Genesi firmwareu. Na kraju instalacije sustav će se ponovo "
-"podići. Na firmware promptu postavite sljedeće firmware varijable za "
-"omogućavanje automatskog podizanja sustava:"
+"Kako bi se vaš sustav automatski pokretao, neke varijable moraju biti "
+"postavljene u Genesi firmveru.  Na kraju instalacije sustav će se ponovno "
+"pokrenuti.  Na upitu firmvera postavite sljedeće varijable firmvera za "
+"omogućavanje automatskog pokretanja sustava:"
 
 #. Type: note
 #. Description
@@ -101,8 +102,8 @@ msgid ""
 "You will only need to do this once.  Afterwards, enter the \"boot\" command "
 "or reboot the system to proceed to your newly installed system."
 msgstr ""
-"To morate učiniti samo jednom. Nakon toga unesite naredbu 'boot', ili ponovo "
-"pokrenite sustav da kako bi nastavilo do svog novoinstaliranog sustava."
+"To ćete morati učiniti samo jednom.  Nakon toga upišite naredbu 'boot' ili "
+"ponovo pokrenite sustav kako bi došli do svog svježe instaliranog sustava."
 
 #. Type: note
 #. Description
@@ -112,8 +113,7 @@ msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
 msgstr ""
-"Alternativno, moći ćete ručno učitati jezgru tako da na firmware promptu "
-"unesete:"
+"Alternativno, moći ćete ručno pokrenuti kernel upisivanjem na firmvare upitu:"
 
 #. Type: note
 #. Description
@@ -124,10 +124,10 @@ msgid ""
 "automatically. At the end of installation, the system will reboot. At the "
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
-"Kako bi se vaš sustav automatski podizao, neke varijable moraju biti "
-"postavljene u CFE-u. Na kraju instalacije sustav će se ponovo podići. Na "
-"firmware promptu postavite sljedeće firmware varijable kako bi "
-"pojednostavili podizanje sustava:"
+"Kako bi se vaš sustav automatski pokretao, neke varijable moraju biti "
+"postavljene u CFE-u. Na kraju instalacije sustav će se ponovo pokrenuti. Na "
+"upitu firmvera postavite sljedeće varijable firmvara kako bi pojednostavili "
+"pokretanje sustava:"
 
 #. Type: note
 #. Description
@@ -137,7 +137,7 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"Ovo ćete morati napraviti samo jednom. To će vam omogućiti da na CFE promptu "
+"Ovo ćete morati napraviti samo jednom. To će vam omogućiti da na CFE upitu "
 "upisujete samo naredbu \"boot_debian\"."
 
 #. Type: note
@@ -148,7 +148,7 @@ msgid ""
 "If you prefer to auto-boot on every startup, you can set the following "
 "variable in addition to the ones above:"
 msgstr ""
-"Ako želite automatsko podizanje svaki puta, možete podesiti i sljedeću "
+"Ako želite automatsko pokretanje svaki puta, možete postaviti sljedeću "
 "varijablu, uz one gore navedene:"
 
 #. Type: note
@@ -156,7 +156,7 @@ msgstr ""
 #. :sl3:
 #: ../nobootloader.templates:5001
 msgid "No boot loader installed"
-msgstr "Boot učitavač nije instaliran"
+msgstr "Učitač pokretanja nije instaliran"
 
 #. Type: note
 #. Description
@@ -166,8 +166,8 @@ msgid ""
 "No boot loader has been installed, either because you chose not to or "
 "because your specific architecture doesn't support a boot loader yet."
 msgstr ""
-"Boot učitavač nije instaliran, ili zato što ste tako odredili, ili zato što "
-"boot učitavač još ne podržava vašu arhitekturu."
+"Učitač pokretanja nije instaliran, ili zato što ste tako odabrali, ili zato "
+"što vaša određena arhitektura još ne podržava učitača pokretanja."
 
 #. Type: note
 #. Description
@@ -177,5 +177,5 @@ msgid ""
 "You will need to boot manually with the ${KERNEL} kernel on partition "
 "${BOOT} and ${ROOT} passed as a kernel argument."
 msgstr ""
-"Morat ćete ručno podići sustav s jezgrom ${KERNEL} na particiji ${BOOT} te "
-"argumentom ${ROOT} proslijeđenim jezgri."
+"Morat ćete ručno pokrenuti sustav s kernelom ${KERNEL} na particiji ${BOOT}, "
+"te argumentom ${ROOT} proslijeđenim kernelu."
