@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
-"POT-Creation-Date: 2009-05-29 22:50+0000\n"
+"POT-Creation-Date: 2019-09-26 22:04+0000\n"
 "PO-Revision-Date: 2010-02-21 18:30+0100\n"
 "Last-Translator:  Elian Myftiu <elian.myftiu@gmail.com>\n"
 "Language-Team: Albanian \n"
@@ -29,6 +29,7 @@ msgstr ""
 #. Type: text
 #. Description
 #. Main menu item
+#. Translators: keep below 55 columns
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
