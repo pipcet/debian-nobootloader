@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-26 22:04+0000\n"
-"PO-Revision-Date: 2012-04-14 22:12+0600\n"
-"Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
+"PO-Revision-Date: 2019-08-28 18:09+0000\n"
+"Last-Translator: leela <53352@protonmail.com>\n"
 "Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
 "Language: bo\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "འགོ་འཛུགས་ཆས་མེད་པར་མུ་མ
 #: ../nobootloader.templates:2001
 #, fuzzy
 msgid "Failed to mount /target/proc"
-msgstr "མཉེན་སྡེར་བཀར་མ་ཐུབ་པ"
+msgstr "/target ཐོག་ཏུ་བཀར་ཡོད་པའི་ཡིག་ཆ་མ་ལག་མེད་པ"
 
 #. Type: error
 #. Description
