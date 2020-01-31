@@ -1,3 +1,14 @@
+nobootloader (1.58) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Tibetan (bo.po)
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Marathi (mr.po) by Prachi Joshi
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 31 Jan 2020 23:14:45 +0100
+
 nobootloader (1.57) unstable; urgency=medium
 
   * Team upload
