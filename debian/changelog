@@ -1,3 +1,13 @@
+nobootloader (1.59) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * German (de.po) by Holger Wansing
+  * Hebrew (he.po) by Yaron Shahrabani
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 10 May 2020 21:31:54 +0200
+
 nobootloader (1.58) unstable; urgency=medium
 
   * Team upload
