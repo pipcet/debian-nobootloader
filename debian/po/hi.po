@@ -3,8 +3,7 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-# translation of debian-installer_packages_po_sublevel1_hi.po to Hindi
-# translation of debian-installer_packages_po_sublevel1_hi.po to
+# translation of debian-installer_packages_po_sublevel1 to Hindi
 # Debian Installer master translation file template
 # Don't forget to properly fill-in the header of PO files
 # Debian Installer translators, please read the D-I i18n documentation
@@ -25,20 +24,22 @@
 # Kumar Appaiah <kumar.appaiah@gmail.com>, 2009.
 #   Alastair McKinstry <mckinstry@debian.org>, 2004.
 # Kumar Appaiah <a.kumar@alumni.iitm.ac.in>, 2008.
-# Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011.
+# Kumar Appaiah <kumar.appaiah@gmail.com>, 2008, 2011, 2012.
+# Sruthi Chandran <srud@openmailbox.org>, 2018.
+# Himanshu Awasthi <johim9493@gmail.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_hi\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-26 22:04+0000\n"
-"PO-Revision-Date: 2011-09-17 09:17-0500\n"
-"Last-Translator: Kumar Appaiah\n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
-"Language: en_US\n"
+"PO-Revision-Date: 2020-05-27 08:41+0000\n"
+"Last-Translator: Sanket Pardhi <sanket002@gmail.com>\n"
+"Language-Team: \n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: 2X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: text
 #. Description
@@ -54,7 +55,7 @@ msgstr "बिना बूटलोडर के जारी रखें"
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "/target/proc को आरूढ़ करने में असफल।"
+msgstr "/target/proc को आरूढ़ करने में विफल"
 
 #. Type: error
 #. Description
@@ -119,7 +120,8 @@ msgstr ""
 msgid ""
 "Alternatively, you will be able to boot the kernel manually by entering, at "
 "the firmware prompt:"
-msgstr "वैकल्पिक रूप से, आप फर्मवेयर प्रॉम्पट पर लिख कर कर्नेल हस्तचालित बूट कर सकते हैं।"
+msgstr ""
+"वैकल्पिक रूप से, आप फर्मवेयर प्रॉम्पट पर लिख कर कर्नेल को हस्तचालित रूप से बूट कर सकते हैं:"
 
 #. Type: note
 #. Description
@@ -142,8 +144,8 @@ msgid ""
 "You will only need to do this once. This enables you to just issue the "
 "command \"boot_debian\" at the CFE prompt."
 msgstr ""
-"इसे आपको सिर्फ़ एक बार करना होगा. इससे आप सीएफई प्रॉम्प्ट पर सिर्फ़ \"boot_debian\" "
-"कमांड दे सकेंगे"
+"इसे आपको सिर्फ़ एक बार करना होगा। इससे आप सीएफई प्रॉम्प्ट पर सिर्फ़ \"boot_debian\" "
+"कमांड दे सकेंगे।"
 
 #. Type: note
 #. Description
