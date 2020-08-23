@@ -18,12 +18,14 @@
 # Christian Rose <menthos@menthos.com>, 2004.
 # Daniel Nylander <po@danielnylander.se>, 2007.
 # Martin Bagge <martin.bagge@bthstudent.se>, 2008, 2016.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2018, 2020.
+# Mattias Münster <mattiasmun@gmail.com>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-26 22:04+0000\n"
-"PO-Revision-Date: 2017-11-29 09:45+0000\n"
+"PO-Revision-Date: 2020-08-20 09:36+0000\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: sv\n"
@@ -129,8 +131,8 @@ msgid ""
 "firmware prompt, set the following variables to simplify booting:"
 msgstr ""
 "Vissa variabler behöver ställas in i CFE för att ditt system ska kunna "
-"starta upp automatiskt.  Vid slutet av installationen kommer systemet att "
-"startas om.  Ställ in följande variabler vid den fasta programvarans prompt "
+"starta upp automatiskt. Vid slutet av installationen kommer systemet att "
+"startas om. Ställ in följande variabler vid den fasta programvarans prompt "
 "för att förenkla uppstarter:"
 
 #. Type: note
