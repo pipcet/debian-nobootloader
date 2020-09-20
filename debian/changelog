@@ -1,3 +1,14 @@
+nobootloader (1.60) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Estonian (et.po) by Kristjan Räts
+  * Hindi (hi.po) by Sanket Pardhi
+  * Swedish (sv.po) by Anders Jonsson
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 20 Sep 2020 22:42:11 +0200
+
 nobootloader (1.59) unstable; urgency=medium
 
   * Team upload
