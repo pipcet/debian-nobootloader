@@ -1,3 +1,14 @@
+nobootloader (1.62) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Catalan (ca.po) by d
+  * Occitan (oc.po) by Quentin PAGÈS
+  * Tamil (ta.po) by Vasudevan Tirumurti
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 13 Mar 2021 18:54:00 +0100
+
 nobootloader (1.61) unstable; urgency=medium
 
   * Team upload
