@@ -15,6 +15,21 @@ _Description: Failed to mount /target/proc
  .
  Warning: Your system may be unbootable!
 
+Template: nobootloader/confirmation_arm64_m1
+Type: note
+# :sl4:
+#flag:translate!:3,6
+_Description: Setting firmware variable for automatic boot
+
+ A firmware variable needs to be set in the iBoot firmware in order
+ for your system to boot automatically.  If you have not yet set it,
+ you can enter Recovery Mode, open the Terminal, and enter
+ .
+  nvram pearl=root ${BOOT_DEVICE}
+ .
+ You will only need to do this once.  Afterwards, enter "reboot" to
+ proceed to your newly installed system.
+
 Template: nobootloader/confirmation_powerpc_chrp_pegasos
 Type: note
 # :sl4:
