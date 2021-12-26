@@ -63,6 +63,13 @@ rootfs=$(mapdevfs $rootfs_devfs)
 bootfs=$(mapdevfs $bootfs_devfs)
 
 case "$(archdetect)" in
+    arm64/m1)
+	template=nobootloader/confirmation_arm64_m1
+	devplusflags="$rootfs"
+
+	db_subst $template BOOT_DEVICE "${devplusflags}"
+	db_input high $template || true
+	;;
     powerpc/chrp_pegasos)
 	kernel=$(ls /target/boot/vmlinuz-* | sed -e 's%/target/boot/%%')
 
