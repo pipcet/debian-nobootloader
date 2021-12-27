@@ -24,7 +24,7 @@ jobs:
     - run: sudo apt-get install device-tree-compiler
     - run: sudo apt-get install libtool-bin
     - run: sudo apt-get install qemu-system-aarch64 sharutils
-    - run: git checkout https://github.com/pipcet/dg
+    - run: git clone https://github.com/pipcet/dg
     - name: Set env variables
       uses: ./dg/github/env/
     - run: echo 1 | sudo tee /proc/sys/vm/overcommit_memory
