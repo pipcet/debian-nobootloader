@@ -28,7 +28,12 @@ _Description: Setting firmware variable for automatic boot
   nvram pearl='root ${BOOT_DEVICE};delay 60'
  .
  You will only need to do this once.  Afterwards, enter "reboot" to
- proceed to your newly installed system.
+ proceed to your newly installed system. Alternatively, use the Pearl menu
+ to open a shell and enter
+ .
+  root ${BOOT_DEVICE}; final
+ .
+ to boot the system just once.
 
 Template: nobootloader/confirmation_powerpc_chrp_pegasos
 Type: note
