@@ -25,7 +25,7 @@ _Description: Setting firmware variable for automatic boot
  for your system to boot automatically.  If you have not yet set it,
  you can enter Recovery Mode, open the Terminal, and enter
  .
-  nvram pearl=root ${BOOT_DEVICE}
+  nvram pearl='root ${BOOT_DEVICE};delay 60'
  .
  You will only need to do this once.  Afterwards, enter "reboot" to
  proceed to your newly installed system.
