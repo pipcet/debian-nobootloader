@@ -28,8 +28,8 @@ jobs:
     - name: Set env variables
       uses: ./dg/github/env/
     - run: echo 1 | sudo tee /proc/sys/vm/overcommit_memory
-    - run: make PACKAGE=nobootloader -j13 -f dg/dg.mk build/packages.cpio
-    - run: make -f dg/dg.mk $(ls build/nobootloader*.udeb){release}
+    - run: make PACKAGE=nobootloader -j13 -f dg/dg.mk dg/build/packages.cpio
+    - run: make -f dg/dg.mk $(ls dg/build/nobootloader*.udeb){release}
     - run: make -f dg/dg.mk {release}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
