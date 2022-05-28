@@ -1,11 +1,18 @@
-nobootloader (1.64) UNRELEASED; urgency=medium
+nobootloader (1.64) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Milo Ivir
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
 
   [ Debian Janitor ]
   * Add missing ${misc:Depends} to Depends for nobootloader.
   * Bump debhelper from deprecated 9 to 13.
   * Set debhelper-compat version in Build-Depends.
 
- -- Samuel Thibault <sthibault@debian.org>  Sat, 29 Jan 2022 21:30:07 +0100
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 28 May 2022 16:55:20 +0200
 
 nobootloader (1.63) unstable; urgency=medium
 
