@@ -1,3 +1,30 @@
+nobootloader (1.65) unstable; urgency=medium
+
+  * Team upload
+
+  * Remove Stephen R. Marenka from Uploaders. (Closes: #1012371)
+
+  [ Updated translations ]
+  * Vietnamese (vi.po) by Trần Ngọc Quân
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 18 Jul 2022 14:34:32 +0200
+
+nobootloader (1.64) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Croatian (hr.po) by Milo Ivir
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+  [ Debian Janitor ]
+  * Add missing ${misc:Depends} to Depends for nobootloader.
+  * Bump debhelper from deprecated 9 to 13.
+  * Set debhelper-compat version in Build-Depends.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 28 May 2022 16:55:20 +0200
+
 nobootloader (1.63) unstable; urgency=medium
 
   * Team upload
@@ -1214,7 +1241,7 @@ nobootloader (0.0.9) unstable; urgency=low
   * Translations:
     - Dafydd Harries : Added Welsh translation (cy.po)
 
- -- Joey Hess <joeyh@debian.org>  Fri,  9 Mar 2004 13:16:36 -0900
+ -- Joey Hess <joeyh@debian.org>  Tue, 09 Mar 2004 13:16:36 -0900
 
 nobootloader (0.0.8) unstable; urgency=low
 

@@ -12,14 +12,14 @@
 # Nguyễn Hùng Vũ <vuhung16@bigfoot.com>, 2001.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2010
 # Hai-Nam Nguyen <hainam@jcisio.com>, 2012
-# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2018, 2019, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: nobootloader@packages.debian.org\n"
 "POT-Creation-Date: 2019-09-26 22:04+0000\n"
-"PO-Revision-Date: 2019-02-27 14:34+0700\n"
+"PO-Revision-Date: 2022-07-16 14:23+0700\n"
 "Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
 "Language: vi\n"
@@ -35,21 +35,21 @@ msgstr ""
 #. :sl1:
 #: ../nobootloader.templates:1001
 msgid "Continue without boot loader"
-msgstr "Tiếp tục không có bộ tải khởi động"
+msgstr "Tiếp tục mà không có bộ tải khởi động"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Failed to mount /target/proc"
-msgstr "Việc lắp “/target/proc” bị lỗi"
+msgstr "Gặp lỗi khi gắn kết “/target/proc”"
 
 #. Type: error
 #. Description
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Mounting the proc file system on /target/proc failed."
-msgstr "Việc lắp hệ thống tập tin proc vào “/target/proc” bị lỗi."
+msgstr "Gặp lỗi khi gắn kết hệ thống tập tin proc vào “/target/proc” bị lỗi."
 
 #. Type: error
 #. Description
@@ -65,7 +65,7 @@ msgstr ""
 #. :sl4:
 #: ../nobootloader.templates:2001
 msgid "Warning: Your system may be unbootable!"
-msgstr "Cảnh báo: hệ thống của bạn có thể không có khả năng khởi động!"
+msgstr "Cảnh báo: hệ thống của bạn có thể không khởi động được!"
 
 #. Type: note
 #. Description
